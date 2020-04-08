@@ -1,4 +1,4 @@
-# Powercoder
+# dev-blog
 
 This repository will contain my work in class
 
