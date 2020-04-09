@@ -198,8 +198,19 @@ h2 {
     font-weight: bold;
 }
 
+
+/*This is a paragraph*/
+
 p {
     margin-bottom: 1em;
+}
+
+
+/*This is an images*/
+
+img {
+    border-radius: 50%;
+    width: 50px;
 }
 
 

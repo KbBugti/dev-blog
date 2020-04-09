@@ -47,8 +47,7 @@ This will contain my JS exercices
 
 [This is a relative link](dev-blog/index.html)
 
-[This is a relative link](https://kbbugti.github.io/dev-blog/
-#streaming)
+[This is a relative link](https://kbbugti.github.io/dev-blog/)
 
 ## Images
 
