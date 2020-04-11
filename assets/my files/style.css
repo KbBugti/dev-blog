@@ -1,0 +1,253 @@
+/* RESET
+--------------------------------------------*/
+
+
+/*#region*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+/*Make the box model border-box by default*/
+
+html {
+    box-sizing: border-box;
+}
+
+
+/*#endregion*/
+
+
+/* BASIC FORMATTING
+--------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    font-family: serif;
+    color: black;
+    line-height: 1.5;
+}
+
+
+/*LINKS*/
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    outline: none;
+}
+
+a:hover {
+    color: brown;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+
+/*FORM ELEMENTS*/
+
+button {}
+
+input,
+input:focus {
+    border: none;
+    outline: none;
+}
+
+
+/*TITLES*/
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+
+/*This is a paragraph*/
+
+p {
+    margin-bottom: 1em;
+}
+
+
+/*This is an image of main page*/
+
+img {
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 8rem;
+}
+
+
+/*Header styles*/
+
+header {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+
+/*This is the side bar stlyes*/
+
+nav {
+    max-width: 13rem;
+    min-width: 13rem;
+}
+
+
+/*Main*/
+
+main {}
+
+
+/*All Section styles*/
+
+section {}
+
+
+/* HELPER CLASSES
+--------------------------------------------
+*/
+
+
+/* LAYOUT
+--------------------------------------------
+*/
+
+
+/* MEDIA QUERIES
+--------------------------------------------
+*/

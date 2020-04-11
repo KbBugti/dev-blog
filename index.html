@@ -4,61 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KB's Dev Blog</title>
-
+    <title>KB's Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 
 <body>
-    <aside>
-        <header>
-            <h2>KB's Blog</h2>
-            <figure>
-                <img src="images.jpg" alt="KB's blog">
-                <figcaption>Paragraph</figcaption>
-            </figure>
-            <figure>
-                <img src="mm" alt="">
-                <img src="mm" alt="">
-                <img src="mm" alt="">
-            </figure>
-        </header>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Post</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
+
+
+    <header id="sidenav">
+        <h2><a href="#">KB's Blog</a></h2>
+        <nav class="navbar navbar-expand-lg navbar-primary" id="sidenav">
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#NavbarSupportedConten" aria-controls="NavbarSupportedConten" aria-expanded="false" aria-label="Toggle NavbarSupportedConten">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="NavbarSupportedConten">
+                <div class="navbar-active">
+                    <img src="images.jpg" alt="KB's blog">
+                    <figcaption>Become a programmer. Learn a programming language like Python. Python is easy to learn for first language.<br> <a href="#">Learn more about Python</a></figcaption>
+                    <hr>
+                    <figure>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </figure>
+
+                    <ul>
+                        <li>
+                            <a href="#">Blog Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog Post</a>
+                        </li>
+                        <li>
+                            <a href="#">About Me</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-danger" type="button">Get in Touch</button>
+                </div>
+            </div>
+
         </nav>
-        <p><button>Get in Touch</button></p>
-    </aside>
+    </header>
 
 
     <main>
 
         <head>
-            <h2>Dev blog</h2>
+            <h1 id="Main-title">I had some time to proofread my work and get it published</h1>
             <p>This is my blog</p>
             <form action="">
-                <input type="email" placeholder="Enter email">
-                <button type="button">Subscibe</button>
+                <input type="email" name="email" placeholder="Enter email">
+                <button type="button" class="btn btn-primary">Subscibe</button>
             </form>
         </head>
     </main>
 
     <section>
-        <figure>
-            <img src="hjkds" alt="My image">
-        </figure>
-        <h2>Section Title</h2>
-        <small>Published data</small>
+        <h2>This is the first Title</h2>
+        <div class="meta mb-1"><span class="date">Published 3 days ago, </span><span class="time">5 min read, </span><span class="commet"><a href="#">20 comments</a></span></div>
+        <img src="hjkds" alt="My image">
         <p>some description here...</p>
         <p><a href="post-3.html">Read more...</a></p>
     </section>
@@ -66,8 +78,8 @@
     <section>
         <figure>
         </figure>
-        <h2>Section Title</h2>
-        <small>Published data</small>
+        <h2>This is the first Title</h2>
+        <div class="meta mb-1"><span class="date">Published 5 days ago, </span><span class="time">20 min read, </span><span class="commet"><a href="#">10 comments</a></span></div>
         <p>some description here...</p>
         <p><a href="post-3.html">Read more...</a></p>
     </section>
@@ -75,12 +87,37 @@
     <section>
         <figure>
         </figure>
-        <h2>Section Title</h2>
-        <small>Published data</small>
+        <h2>This is the first Title</h2>
+        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
         <p>some description here...</p>
         <p><a href="post-3.html">Read more...</a></p>
     </section>
 
+    <section>
+        <figure>
+        </figure>
+        <h2>This is the first Title</h2>
+        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
+        <p>some description here...</p>
+        <p><a href="post-3.html">Read more...</a></p>
+    </section>
+
+    <section>
+        <figure>
+        </figure>
+        <h2>This is the first Title</h2>
+        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
+        <p>some description here...</p>
+        <p><a href="post-3.html">Read more...</a></p>
+    </section>
+
+
+
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
