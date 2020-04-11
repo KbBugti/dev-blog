@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Welcome to my README profile...
+<<<<<<<
+# Welcome to my README profile... >>>>>>>>
 =======
 ## Welcome to my README file....
 >>>>>>> 4d7b65f741bb4c9afe6f8acec882d1d124def51c
