@@ -4,7 +4,7 @@
 =======
 
 
-> This repository will contain my work in class
+> This *repository* will ~~contain my work in class~~
 
 >> This is a second paragraph<br>
 
