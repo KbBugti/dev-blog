@@ -6,9 +6,9 @@
 
 > This repository will contain my work in class
 
->>> This is a second paragraph<br>
+>> This is a second paragraph<br>
 
--- This is a br line
+>>> This is a br line
 
 ---
 
