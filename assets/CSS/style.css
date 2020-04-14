@@ -139,153 +139,304 @@
     /*#endregion*/
     /* BASIC FORMATTING
 --------------------------------------------*/
-    
     html {
         box-sizing: border-box;
-        font-size: 16px;
-        scroll-behavior: smooth;
+        
     }
     
-    body {
-        font-size: 1rem;
-        font-family: serif;
-        color: black;
-        line-height: 1.5;
+   body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial;
+    font-size: 1rem;
+    font-weight: 25rem;
+    line-height: 1.5rem;
+    color: #292929;
+    text-align: left;
+    background-color: #fff
+}
+
+
+/*----------All stlyes of the header------------*/
+
+.header {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 17.5rem;
+    background: #3B7EEB;
+    color: #fff;
+}
+
+.header .blog-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff
+}
+
+.header .blog-name a {
+    color: #fff
+}
+
+.header .blog-name a:hover {
+    text-decoration: none;
+    transition: 1s ease;
+    opacity: 1s;
+    color: darkgreen;
+}
+
+.header a {
+    color: white;
+}
+
+.profile-image {
+    width: 10rem;
+    height: 11rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 0.5rem;
+    height: 2.5rem;
+    transition: all 0.4s ease-in-out;
+    transition: none;
+}
+
+@media (max-width: 700px) {
+    .btn {
+        width: auto;
+        height: auto;
     }
-    /*LINKS*/
-    
-    a {
-        text-decoration: none;
-        color: blueviolet;
-    }
-    
-    a:hover {
-        color: brown;
-        opacity: 1;
-        transition: 1s ease;
-    }
-    /*FORM ELEMENTS*/
-    
-    button {
-        width: 8rem;
-        height: 2.5rem;
-        font-family: Helvetica;
-    }
-    /*Input*/
-    
-    input {
-        width: 20rem;
-        height: 2.4rem;
-        font-family: Helvetica;
-    }
-    /*TITLES*/
-    
-    h1,
-    h2 {
-        font-weight: bold;
-    }
-    /*This is a paragraph*/
-    
-    p {
-        margin-bottom: 1em;
-    }
-    /* This is an image of main page */
-    
-    img {
-        width: 12rem;
-        padding: 1rem;
-        border-radius: 9rem;
-    }
-    /* Sidebar stlyes */
-    
-    #sidenav {
-        position: fixed;
-        background-color: #007bff;
-        text-align: center;
-        height: 45rem;
-        padding-bottom: 18rem;
-        height: 51.5em;
-        max-width: 17.5rem;
-        min-width: 17.5rem;
-    }
-    /* Style all font awesome icons */
-    
-    .fa {
-        padding: 5px;
-        font-size: 20px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 20px;
+}
+
+
+/*------------Login button and input styles------------*/
+
+.btn-primary {
+    color: #fff
+}
+
+.theme-bg-light {
+    background: #fafafa !important
+}
+
+.theme-bg-dark {
+    background: gray !important
+}
+
+
+/*-------------Social media icons styles-----------*/
+
+.fa {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    background-color: white;
+    color: #007bff;
+}
+
+
+/*------------Set a specific color for each brand of icons-------------*/
+
+.fa:hover {
+    opacity: 0.7rem;
+}
+
+
+/*------------Twitter icon-------------*/
+
+.fa-twitter {
+    background-color: white;
+    color: #007bff;
+}
+
+
+/*------------Facebook icon------------*/
+
+fa-facebook {
+    background-color: white;
+    color: #007bff;
+}
+
+
+/*-------------linkedin icon-----------*/
+
+.fa-linkedin {
+    background-color: white;
+    color: #007bff;
+}
+
+
+/*------------Github icon--------------*/
+
+.fa-github {
+    background-color: white;
+    color: #007bff;
+}
+
+
+/*-------------The styles of Icons Status--------------*/
+
+.fas {
+    padding: 0.35rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*------------This is the mainpage wrapper and Template section styles-------------*/
+
+.img-fluid {
+    width: 8rem;
+    height: 9rem;
+    padding: 0.7rem;
+    top: 0;
+    left: 0;
+}
+
+.mainpage-wrapper {
+    margin-left: 280px;
+    background: white;
+    text-align: left;
+}
+
+.template-section {
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.mainpage-wrapper .container {
+    max-width: 820px;
+}
+
+.mainpage-wrapper .heading {
+    max-width: 820px;
+}
+
+.template-section .heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.intro {
+    font-family: serif;
+    color: gray;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(white, blue);
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .theme-btn-template {
+        width: inherit;
         display: inline-block;
-        background-color: white;
-        color: #007bff;
     }
-    
-    .fa:hover {
-        opacity: 0.7rem;
+    .template-section .form-inline .form-control {
+        width: 360px;
     }
-    /* Set a specific color for each brand */
-    /* Twitter icon*/
-    
-    .fa-twitter {
-        background: white;
-        color: #007bff;
+}
+
+
+/*-------------The header sidebar Media styles------------*/
+
+@media (max-width: 991.98px) {
+    .header {
+        position: static;
+        width: inherit;
+        height: auto;
     }
-    /*Facebook icon*/
-    
-    fa-facebook {
-        background: white;
-        color: #007bff;
+    .header .blog-name {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 1.2rem;
     }
-    /* linkedin icon*/
-    
-    .fa-linkedin {
-        background: white;
-        color: #007bff;
+    .header .btn-primary {
+        width: 100%;
     }
-    /* Github icon*/
-    
-    .fa-github {
-        background: white;
-        color: #007bff;
+    .header .navbar {
+        padding: 1rem;
     }
-    /*Dribbble icon*/
-    
-    .Dribbble {
-        background: white;
-        color: #007bff;
+    .mainpage-wrapper {
+        margin-left: 0;
     }
-    /* Main elements*/
-    
-    main {
-        text-align: center;
-        padding-left: 15rem;
+}
+
+
+/*-------------This is signup-form--------------*/
+
+.signup-form {
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media (max-width: 767.98px) {
+    .signup-form .form-group {
+        width: 100%;
+        margin-bottom: 0.5rem;
     }
-    /* This is the title of main page */
-    
-    #Main-title {
-        font-size: 2rem;
+    .signup-form .form-control {
+        width: 100%;
     }
-    /* Section styles */
-    
-    section {
-        text-align: center;
+    .signup-form .btn-primary {
+        width: 100%;
     }
-    /*styles of social media time, date and comments*/
-    
-    .meta {
-        color: darkgray;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.7rem;
-    }
-    /* HELPER CLASSES
---------------------------------------------
-*/
-    /* LAYOUT
---------------------------------------------
-*/
-    /* MEDIA QUERIES
---------------------------------------------
-*/
+}
+
+
+/*--------Style of time and Comments Layout----------*/
+
+.meta {
+    font-size: 0.6rem;
+    color: gray;
+}
+
+
+/*----------Next and Previous Buttons styles------------*/
+
+.Previous-next {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.next {
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    height: 50px;
+    width: 100%;
+    font-family: bold;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*---------Footer and Heart icon color-----------*/
+
+.fa-heart {
+    color: blue;
+}
+
+footer {
+    color: white;
+    font-size: 1rem;
+    background-color: #292929;
+}
