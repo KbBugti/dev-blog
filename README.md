@@ -44,7 +44,7 @@ How to become a developer and get your first job as quickly as possible
 
 =======
 ---
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+
 ## But why be a developer?
 1. There is a huge demand for developers — at the time of writing, Indeed had 37,739 job adverts for ‘developer’ in the UK and 145,640 in the US. Those numbers are only going to increase as the U.S. Bureau of Labor Statistics estimates a 17% rise between 2014 and 2024.
 2. The work can be very varied and interesting — as a developer you can work on a huge range of projects from e-commerce websites to computer games, from mobile apps to artificial intelligence. Almost all of the skills are transferable between each of these areas, and this means you aren’t locked into a single job.
@@ -58,7 +58,6 @@ How to become a developer and get your first job as quickly as possible
 - [ ] Analytical skills:
 - [ ] Concentration and focus: 
 =======
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
 
 ---
 ## Software Developer Skills & Competencies
