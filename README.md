@@ -4,6 +4,7 @@
 
 
 
+========
 How to become a developer and get your first job as quickly as possible
 
 > Duties & Responsibilities
@@ -47,7 +48,7 @@ How to become a developer and get your first job as quickly as possible
 3. The work can be flexible — As most of your work is reading and writing code, all you need is a computer. This means it can be done from anywhere, at any time. There are an increasing number of remote developers who work from home or while traveling the world.
 
 
-
+---
 ## Software Developer Skills & Competencies
 - [ ] Creativity and innovation:
 - [X] Interpersonal and communication skills:
