@@ -1,0 +1,302 @@
+    /*------------RESET Eric------------*/
+    /*#region*/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block
+    }
+    
+    body {
+        line-height: 1
+    }
+    
+    ol,
+    ul {
+        list-style: none
+    }
+    
+    blockquote,
+    q {
+        quotes: none
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+    /*Make the box model border-box by default*/
+    
+    html {
+        box-sizing: border-box;
+    }
+    /*#endregion*/
+    /*--------BASIC FORMATTING-----------*/
+    
+    html {
+        font-size: 16px;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-size: 1rem;
+        font-family: sans-serif;
+        line-height: 1.5;
+        color: black;
+    }
+    /*Header*/
+    
+    .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 45rem;
+        padding-bottom: 18rem;
+        height: 100%;
+        width: 17.5rem;
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+    }
+    
+    h1,
+    h2 {
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    a {}
+    
+    a:hover {}
+    /* HELPER CLASSES
+--------------------------------------------
+*/
+    /* LAYOUT
+--------------------------------------------
+*/
+    /*---------Typography---------*/
+    /*font family*/
+    
+    .lato {
+        font-family: Lato, whatever;
+    }
+    
+    .roboto {
+        /**/
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .line-height-1,
+    .lh-1 {
+        line-height: 1;
+    }
+    /*Font size*/
+    
+    .fs-1 {
+        font-size: 1rem;
+    }
+    
+    .fs-2 {
+        font-size: 1rem;
+    }
+    
+    .lh-1-2 {
+        line-height: 1.2;
+    }
+    /*colors*/
+    
+    .red {
+        color: red;
+    }
+    
+    .blue {
+        color: black;
+    }
+    /* MEDIA QUERIES
+--------------------------------------------
+*/
+    
+    .courier {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .regular {}
+    /*---------MARGINS---------*/
+    
+    .m-t-1 {
+        margin: 1rem;
+    }
+    
+    .m-t-2 {
+        margin: 1.20em;
+    }
+    
+    .m-t-3 {
+        margin: 1.2em;
+    }
+    
+    .m-t-4 {
+        margin: 1.40em;
+    }
+    
+    .m-t-5 {
+        margin: 1.70em;
+    }
+    
+    .m-b-1 {
+        margin: 1rem;
+    }
+    
+    .m-b-2 {
+        margin: 1.20em;
+    }
+    
+    .m-b-3 {
+        margin: 1.2em;
+    }
+    
+    .m-b-4 {
+        margin: 1.40em;
+    }
+    
+    .m-b-5 {
+        margin: 1.70em;
+    }
+    /*JQUERY
+    ----------------------------*/
+    /*FLEX
+    ----------------------------*/
+    /*LAYOUT
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*MARGINS
+    ----------------------------*/
+    /*MARGINS
+    ----------------------------*/
+    /*
+    MARGINS---------------------*/
+    /*
+    MARGINS---------------------*/
+    /*
+    MARGINS---------------------*/
+    /* BASIC FORMATTING
+--------------------------------------------*/
