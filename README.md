@@ -12,9 +12,6 @@ How to become a developer and get your first job as quickly as possible
 
 
 
-=======
-
->>> This is a br line
 
 > This *repository* will ~~Duties & Responsibilities~~
 
