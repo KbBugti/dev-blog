@@ -332,7 +332,7 @@
             width: 360px;
         }
     }
-    /*-------------The header sidebar Media styles------------*/
+    /*-------------The header sidebar styles from Media Queries------------*/
     
     @media (max-width: 991.98px) {
         .header {
