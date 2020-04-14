@@ -3,8 +3,6 @@
 
 
 
-
-========
 How to become a developer and get your first job as quickly as possible
 
 > Duties & Responsibilities
@@ -33,7 +31,7 @@ How to become a developer and get your first job as quickly as possible
   - Monitor quality and performance of applications through testing and maintenance.
 - Document all work for future reference.
 
-
+---
 ## What Does a Software Developer Do?
 - **Develop and test software to meet consumers' and clients' needs.**
   - *Develop upgrades for existing applications.*
