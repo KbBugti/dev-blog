@@ -4,7 +4,7 @@
 =======
 
 <<<<<<< HEAD
-<<<<<<< HEAD
+
 How to become a developer and get your first job as quickly as possible
 
 > Duties & Responsibilities
@@ -13,21 +13,19 @@ How to become a developer and get your first job as quickly as possible
 =======
 =======
 # How to become a developer and get your first job as quickly as possible
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+
 
 
 =======
 
-<<<<<<< HEAD
 >>> This is a br line
->>>>>>> 1e672d2cacac30e47709d7c56ce82d895a61c4f8
-=======
+
 > This *repository* will ~~Duties & Responsibilities~~
 
 >> **Education, Training & Certification**
 
 >>> Skills & Competencies
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+
 
 
 ---
