@@ -1,4 +1,189 @@
-<<<<<<< HEAD
-=======
+<!DOCTYPE html>
+<html lang="en">
 
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KB's Blog</title>
+
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <script>
+        // Create the dropdown base
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <header class="header">
+        <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">KB's Blog</a></h1>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navbarSupportedContent">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse flex-column">
+                <div class="profile-section pt-3 pt-lg-0">
+                    <img class="profile-image mb-3" src="images.png" alt="image">
+
+                    <div class="bio mb-3">Every developer should have a blog. Here’s why, and how to stick with it.<br><a href="about.html">Find out more here</a></div>
+
+                    <figure>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </figure>
+
+                    <!--//social-list-->
+                    <hr>
+                </div>
+
+                <!--//profile-section-->
+
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i>  About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-bookmark"></i>  Blog Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user"></i>  About Me</a>
+                    </li>
+                </ul>
+
+                <div class="my-md-3">
+                    <a class="btn btn-primary" target="_blank">Get in Touch</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mainpage-wrapper">
+        <section class="template-section theme-bg-light py-5">
+            <div class="container">
+                <h2 class="heading">This is my first blog and if you want more information then plz subscrib here</h2>
+                <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
+                <form class="signup-form form-inline">
+                    <div class="form-group">
+                        <label for="uremail"></label>
+                        <input type="email" id="uremail" name="uremail" class="form-control" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <!--//container-->
+        </section>
+        <section class="blog-list">
+            <div class="container">
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="image1.jpg" alt="image">
+                        <div class="media-body">
+                            <h3 class="title mb-1"><a href="#">How to become a developer.</a></h3>
+                            <div class="meta mb-1"><span class="date">Published 2 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 8 comments</a></span></div>
+                            <div class="intro">Have you ever thought about becoming a software developer or looking for a change of career? This article will give you a solid plan to get you started in software development and get you your first job!</div>
+                            <a class="more-link" href="blog-post.html">Read more &#x2192;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--//item-->
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="image2.jpg" alt="image">
+                        <div class="media-body">
+                            <h3 class="title mb-1"><a href="#">Python Developer job description template.</a></h3>
+                            <div class="meta mb-1"><span class="date">Published 2 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 8 comments</a></span></div>
+                            <div class="intro">This Python Developer job description template includes the list of most important Python Developer's duties and responsibilities. It is customizable and ready to post to job boards.</div>
+                            <a class="more-link" href="blog-post.html">Read more &#x2192;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="image3.png" alt="image">
+                        <div class="media-body">
+                            <h3 class="title mb-1"><a href="#">Software Developer Duties & Responsibilities.</a></h3>
+                            <div class="meta mb-1"><span class="date">Published 2 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 8 comments</a></span></div>
+                            <div class="intro">Developers can work in systems software or in applications such as those for mobile devices, but their duties are similar in many cases....</div>
+                            <a class="more-link" href="blog-post.html">Read more &#x2192;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="image4.jpg" alt="image">
+                        <div class="media-body">
+                            <h3 class="title mb-1"><a href="#">HTML5 Developer job description template.</a></h3>
+                            <div class="meta mb-1"><span class="date">Published 2 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 8 comments</a></span></div>
+                            <div class="intro">This HTML5 Developer job description template includes the list of most important HTML5 Developer 's duties and responsibilities. It is customizable and ready to post to job boards. Use it to save time, attract qualified candidates
+                                and hire best employees</div>
+                            <a class="more-link" href="blog-post.html">Read more &#x2192;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="image5.jpg" alt="image">
+                        <div class="media-body">
+                            <h3 class="title mb-1"><a href="#">Bootstrap · The most popular HTML, CSS, and JS library in the world.</a></h3>
+                            <div class="meta"><span class="date">Published 2 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 8 comments</a></span></div>
+                            <div class="intro">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins</div>
+                            <a class="more-link" href="https://getbootstrap.com">Read more &#x2192;</a>
+                        </div>
+                    </div>
+
+
+                    <nav class="Previous-next">
+                        <a href="#" class="previous"></a>
+                        <a href="#" class="next btn btn-success">Next &#x2192;</a>
+                    </nav>
+
+                </div>
+
+
+        </section>
+
+        <footer class="footer text-center py-2">
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="#" target="_blank">Khuda Bakhsh Bugti</a></small>
+        </footer>
+        </div>
+
+
+
+
+
+
+
+        <!-- Javascript -->
+
+</body>
+
+</html>
