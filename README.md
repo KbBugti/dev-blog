@@ -14,11 +14,10 @@
 
 >>> Skills & Competencies
 
+
 ---
-
-
 ## What Does a Software Developer Do?
----
+--
 - **Develop and test software to meet consumers' and clients' needs.**
   - *Develop upgrades for existing applications.*
   - Monitor quality and performance of applications through testing and maintenance.
