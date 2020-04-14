@@ -421,7 +421,7 @@ a:hover {
 
 /*----------Next and Previous Buttons styles------------*/
 
-.Previous-next {
+.previous-next {
     text-align: center;
     padding-top: 4rem;
 }
@@ -438,17 +438,34 @@ a:hover {
 }
 
 
-/*---------Fotter and Heart icon color*/
+/*---------Fotter and Heart icon color---------*/
 
 
-/*---------Footer and Heart icon color*/
+/*---------Footer and Heart icon color---------*/
 
 .fa-heart {
     color: blue;
 }
 
-footer {
+.footer {
+    text-align: center;
     color: white;
     font-size: 1rem;
     background-color: #292929;
+}
+
+@media (max-width: 869px) {
+    .previousnext .btn {
+        width: 100%;
+    }
+}
+
+.previousnext {
+    text-align: center;
+}
+
+.previousnext .btn {
+    width: 35%;
+    background-color: #007bff;
+    height: 3rem;
 }
