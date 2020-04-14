@@ -3,37 +3,37 @@
 
 =======
 
+# How to become a developer and get your first job as quickly as possible
 
-> This *repository* will ~~contain my work in class~~
 
->> **This is a second paragraph**<br>
+=======
 
->>> This is a br line
+> This *repository* will ~~Duties & Responsibilities~~
+
+>> **Education, Training & Certification**
+
+>>> Skills & Competencies
 
 ---
 
 
-## This is an **unordered** list
-- **asdasd**
-  - *asdasd*
-  - **asdasd**
-  - *asdasd*
-  - asdasd
-- asdasd
-- asdasd
-- asdasd
+## What Does a Software Developer Do?
+- **Develop and test software to meet consumers' and clients' needs.**
+  - *Develop upgrades for existing applications.*
+  - Monitor quality and performance of applications through testing and maintenance.
+- Document all work for future reference.
 
-## This is an *ordered* list
-1. asdasd
-2. asdasd
-3. asdasd
-4. asdasd
+## But why be a developer?
+1. There is a huge demand for developers — at the time of writing, Indeed had 37,739 job adverts for ‘developer’ in the UK and 145,640 in the US. Those numbers are only going to increase as the U.S. Bureau of Labor Statistics estimates a 17% rise between 2014 and 2024.
+2. The work can be very varied and interesting — as a developer you can work on a huge range of projects from e-commerce websites to computer games, from mobile apps to artificial intelligence. Almost all of the skills are transferable between each of these areas, and this means you aren’t locked into a single job.
+3. The work can be flexible — As most of your work is reading and writing code, all you need is a computer. This means it can be done from anywhere, at any time. There are an increasing number of remote developers who work from home or while traveling the world.
 
-## This is an checkbox list
-- [ ] to do something
-- [X] asdasd
-- [ ] asdasd
-- [ ] asdasd
+
+## Software Developer Skills & Competencies
+- [ ] Creativity and innovation:
+- [X] Interpersonal and communication skills:
+- [ ] Analytical skills:
+- [ ] Concentration and focus: 
 
 ## CLI
 This will contain my CLI exercices
