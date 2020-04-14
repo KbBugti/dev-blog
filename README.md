@@ -30,7 +30,6 @@
 
 ---
 ## Software Developer Skills & Competencies
----
 - [ ] Creativity and innovation:
 - [X] Interpersonal and communication skills:
 - [ ] Analytical skills:
