@@ -1,5 +1,4 @@
-    /* RESET
---------------------------------------------*/
+    /*------------RESET Eric------------*/
     /*#region*/
     
     html,
@@ -137,155 +136,165 @@
         box-sizing: border-box;
     }
     /*#endregion*/
-    /* BASIC FORMATTING
---------------------------------------------*/
+    /*--------BASIC FORMATTING-----------*/
     
     html {
-        box-sizing: border-box;
         font-size: 16px;
         scroll-behavior: smooth;
     }
     
     body {
         font-size: 1rem;
-        font-family: serif;
-        color: black;
+        font-family: sans-serif;
         line-height: 1.5;
+        color: black;
     }
-    /*LINKS*/
+    /*Header*/
     
-    a {
-        text-decoration: none;
-        color: blueviolet;
+    .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 45rem;
+        padding-bottom: 18rem;
+        height: 100%;
+        width: 17.5rem;
+        background-color: #007bff;
+        color: white;
+        text-align: center;
     }
-    
-    a:hover {
-        color: brown;
-        opacity: 1;
-        transition: 1s ease;
-    }
-    /*FORM ELEMENTS*/
-    
-    button {
-        width: 8rem;
-        height: 2.5rem;
-        font-family: Helvetica;
-    }
-    /*Input*/
-    
-    input {
-        width: 20rem;
-        height: 2.4rem;
-        font-family: Helvetica;
-    }
-    /*TITLES*/
     
     h1,
     h2 {
         font-weight: bold;
-    }
-    /*This is a paragraph*/
-    
-    p {
-        margin-bottom: 1em;
-    }
-    /* This is an image of main page */
-    
-    img {
-        width: 12rem;
-        padding: 1rem;
-        border-radius: 9rem;
-    }
-    /* Sidebar stlyes */
-    
-    #sidenav {
-        position: fixed;
-        background-color: #007bff;
-        text-align: center;
-        height: 45rem;
-        padding-bottom: 18rem;
-        height: 51.5em;
-        max-width: 17.5rem;
-        min-width: 17.5rem;
-    }
-    /* Style all font awesome icons */
-    
-    .fa {
-        padding: 5px;
-        font-size: 20px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 20px;
-        display: inline-block;
-        background-color: white;
-        color: #007bff;
+        font-family: sans-serif;
     }
     
-    .fa:hover {
-        opacity: 0.7rem;
-    }
-    /* Set a specific color for each brand */
-    /* Twitter icon*/
+    a {}
     
-    .fa-twitter {
-        background: white;
-        color: #007bff;
-    }
-    /*Facebook icon*/
-    
-    fa-facebook {
-        background: white;
-        color: #007bff;
-    }
-    /* linkedin icon*/
-    
-    .fa-linkedin {
-        background: white;
-        color: #007bff;
-    }
-    /* Github icon*/
-    
-    .fa-github {
-        background: white;
-        color: #007bff;
-    }
-    /*Dribbble icon*/
-    
-    .Dribbble {
-        background: white;
-        color: #007bff;
-    }
-    /* Main elements*/
-    
-    main {
-        text-align: center;
-        padding-left: 15rem;
-    }
-    /* This is the title of main page */
-    
-    #Main-title {
-        font-size: 2rem;
-    }
-    /* Section styles */
-    
-    section {
-        text-align: center;
-    }
-    /*styles of social media time, date and comments*/
-    
-    .meta {
-        color: darkgray;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.7rem;
-    }
+    a:hover {}
     /* HELPER CLASSES
 --------------------------------------------
 */
     /* LAYOUT
 --------------------------------------------
 */
+    /*---------Typography---------*/
+    /*font family*/
+    
+    .lato {
+        font-family: Lato, whatever;
+    }
+    
+    .roboto {
+        /**/
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .line-height-1,
+    .lh-1 {
+        line-height: 1;
+    }
+    /*Font size*/
+    
+    .fs-1 {
+        font-size: 1rem;
+    }
+    
+    .fs-2 {
+        font-size: 1rem;
+    }
+    
+    .lh-1-2 {
+        line-height: 1.2;
+    }
+    /*colors*/
+    
+    .red {
+        color: red;
+    }
+    
+    .blue {
+        color: black;
+    }
     /* MEDIA QUERIES
 --------------------------------------------
 */
+    
+    .courier {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .regular {}
+    /*---------MARGINS---------*/
+    
+    .m-t-1 {
+        margin: 1rem;
+    }
+    
+    .m-t-2 {
+        margin: 1.20em;
+    }
+    
+    .m-t-3 {
+        margin: 1.2em;
+    }
+    
+    .m-t-4 {
+        margin: 1.40em;
+    }
+    
+    .m-t-5 {
+        margin: 1.70em;
+    }
+    
+    .m-b-1 {
+        margin: 1rem;
+    }
+    
+    .m-b-2 {
+        margin: 1.20em;
+    }
+    
+    .m-b-3 {
+        margin: 1.2em;
+    }
+    
+    .m-b-4 {
+        margin: 1.40em;
+    }
+    
+    .m-b-5 {
+        margin: 1.70em;
+    }
+    /*JQUERY
+    ----------------------------*/
+    /*FLEX
+    ----------------------------*/
+    /*LAYOUT
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*PADDING
+    ----------------------------*/
+    /*MARGINS
+    ----------------------------*/
+    /*MARGINS
+    ----------------------------*/
+    /*
+    MARGINS---------------------*/
+    /*
+    MARGINS---------------------*/
+    /*
+    MARGINS---------------------*/

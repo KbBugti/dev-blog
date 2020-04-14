@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KB's Blog</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- CSS style sheet -->
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 
@@ -14,18 +20,17 @@
 
 
 
-    <header id="sidenav">
-        <h2><a href="#">KB's Blog</a></h2>
-        <nav class="navbar navbar-expand-lg navbar-primary" id="sidenav">
-
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#NavbarSupportedConten" aria-controls="NavbarSupportedConten" aria-expanded="false" aria-label="Toggle NavbarSupportedConten">
-             <span class="navbar-toggler-icon"></span>
+    <header class="header">
+        <h2 class="myblog-name pt-lg-3"><a href="#">KB's Blog</a></h2>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="NavbarSupportedConten">
-                <div class="navbar-active">
-                    <img src="images.jpg" alt="KB's blog">
-                    <figcaption>Become a programmer. Learn a programming language like Python. Python is easy to learn for first language.<br> <a href="#">Learn more about Python</a></figcaption>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="proflie-style pt-lg-1">
+                    <img class="profile-img" src="images.png" alt="KB's blog">
+                    <figcaption class="bio mb-3">Every developer should have a blog. Here’s why, and how to stick with it.<br><a href="about.html">Find out more here</a></figcaption>
                     <hr>
                     <figure>
                         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -46,8 +51,9 @@
                             <a href="#">About Me</a>
                         </li>
                     </ul>
-
-                    <button class="btn btn-danger" type="button">Get in Touch</button>
+                    <div class="my-md-3">
+                        <button class="btn btn-danger my-md-3" type="button">Get in Touch</button>
+                    </div>
                 </div>
             </div>
 
@@ -55,61 +61,45 @@
     </header>
 
 
-    <main>
+    <div class="mainpage-wrapper">
+        <section class="template-section theme-bg-light py-5">
+            <div class="container">
+                <h2>I had some time to proofread my work and get it published</h2>
+                <p class="intro">This is my blog</p>
+                <form action="siginup-form form-inline">
+                    <div class="from-group">
+                        <label class="sr-only" for="uremail">Your email</label>
+                        <input class="form-control mr-md-1 uremail" type="text" name="uremail" id="uremail" placeholder="Enter email">
+                    </div>
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
 
-        <head>
-            <h1 id="Main-title">I had some time to proofread my work and get it published</h1>
-            <p>This is my blog</p>
-            <form action="">
-                <input type="email" name="email" placeholder="Enter email">
-                <button type="button" class="btn btn-primary">Subscibe</button>
-            </form>
-        </head>
-    </main>
+        <section class="blog-col py-5 p-md-5">
+            <div class="container">
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid post-thumb d-none d-md-flex" src="image1.jpg" alt="image">
+                        <div class="media-body">
+                            <h2 class="title md-1">Why Every Developer Should Have A Blog</h2>
+                            <div class="meta md-2"><span class="date">Published 3 days ago, </span><span class="time">5 min read, </span><span class="commet"><a href="#">20 comments</a></span></div>
+                            <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...
+                                <a class="readmore-link" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center py-2 theme-bg-dark">
 
-    <section>
-        <h2>This is the first Title</h2>
-        <div class="meta mb-1"><span class="date">Published 3 days ago, </span><span class="time">5 min read, </span><span class="commet"><a href="#">20 comments</a></span></div>
-        <img src="hjkds" alt="My image">
-        <p>some description here...</p>
-        <p><a href="post-3.html">Read more...</a></p>
-    </section>
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="#" target="_blank">Khuda Bakhsh Bugti</a> for students</small>
 
-    <section>
-        <figure>
-        </figure>
-        <h2>This is the first Title</h2>
-        <div class="meta mb-1"><span class="date">Published 5 days ago, </span><span class="time">20 min read, </span><span class="commet"><a href="#">10 comments</a></span></div>
-        <p>some description here...</p>
-        <p><a href="post-3.html">Read more...</a></p>
-    </section>
+        </footer>
+    </div>
 
-    <section>
-        <figure>
-        </figure>
-        <h2>This is the first Title</h2>
-        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
-        <p>some description here...</p>
-        <p><a href="post-3.html">Read more...</a></p>
-    </section>
-
-    <section>
-        <figure>
-        </figure>
-        <h2>This is the first Title</h2>
-        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
-        <p>some description here...</p>
-        <p><a href="post-3.html">Read more...</a></p>
-    </section>
-
-    <section>
-        <figure>
-        </figure>
-        <h2>This is the first Title</h2>
-        <div class="meta mb-1"><span class="date">Published 6 days ago, </span><span class="time">25 min read, </span><span class="commet"><a href="#">15 comments</a></span></div>
-        <p>some description here...</p>
-        <p><a href="post-3.html">Read more...</a></p>
-    </section>
 
 
 
