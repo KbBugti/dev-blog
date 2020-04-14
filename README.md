@@ -1,33 +1,24 @@
 
 # Welcome to my README profile... 
 
-=======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 How to become a developer and get your first job as quickly as possible
 
 > Duties & Responsibilities
 >>Education, Training & Certification
 >>>Skills & Competencies
-=======
-=======
 # How to become a developer and get your first job as quickly as possible
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
 
 
-=======
 
-<<<<<<< HEAD
->>> This is a br line
->>>>>>> 1e672d2cacac30e47709d7c56ce82d895a61c4f8
-=======
+
 > This *repository* will ~~Duties & Responsibilities~~
 
 >> **Education, Training & Certification**
 
 >>> Skills & Competencies
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+
 
 
 ---
@@ -37,30 +28,27 @@ How to become a developer and get your first job as quickly as possible
   - Monitor quality and performance of applications through testing and maintenance.
 - Document all work for future reference.
 
-<<<<<<< HEAD
+---
 ## What Does a Software Developer Do?
 - **Develop and test software to meet consumers' and clients' needs.**
   - *Develop upgrades for existing applications.*
   - Monitor quality and performance of applications through testing and maintenance.
 - Document all work for future reference.
 
-=======
 ---
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
+
 ## But why be a developer?
 1. There is a huge demand for developers — at the time of writing, Indeed had 37,739 job adverts for ‘developer’ in the UK and 145,640 in the US. Those numbers are only going to increase as the U.S. Bureau of Labor Statistics estimates a 17% rise between 2014 and 2024.
 2. The work can be very varied and interesting — as a developer you can work on a huge range of projects from e-commerce websites to computer games, from mobile apps to artificial intelligence. Almost all of the skills are transferable between each of these areas, and this means you aren’t locked into a single job.
 3. The work can be flexible — As most of your work is reading and writing code, all you need is a computer. This means it can be done from anywhere, at any time. There are an increasing number of remote developers who work from home or while traveling the world.
-<<<<<<< HEAD
 
 
+---
 ## Software Developer Skills & Competencies
 - [ ] Creativity and innovation:
 - [X] Interpersonal and communication skills:
 - [ ] Analytical skills:
 - [ ] Concentration and focus: 
-=======
->>>>>>> 15b6c039b804a9ae70afa6a87945e2f3293d446d
 
 ---
 ## Software Developer Skills & Competencies
