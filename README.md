@@ -3,11 +3,20 @@
 
 =======
 
+<<<<<<< HEAD
 How to become a developer and get your first job as quickly as possible
 
 > Duties & Responsibilities
 >>Education, Training & Certification
 >>>Skills & Competencies
+=======
+
+> This *repository* will ~~contain my work in class~~
+
+>> **This is a second paragraph**<br>
+
+>>> This is a br line
+>>>>>>> 1e672d2cacac30e47709d7c56ce82d895a61c4f8
 
 ---
 
