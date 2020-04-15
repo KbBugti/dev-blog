@@ -1,0 +1,41 @@
+/* Common CSS */
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #D8D8D8;
+}
+#logo {
+  text-align: center;
+  background: #fff;
+}
+#nav {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+/* TITLE */
+h1 {
+  background: #fff;
+  text-align: center;
+}
+
+/* SECTION */
+#section-1 {
+  background: #D0D57E;
+}
+#section-2 {
+  background: #A4EBFF;
+}
+/* SECTION CONTENT */
+section .contenu {
+  min-height: 240px;
+  background: #fff;
+}
+
+/* FOOTER */
+footer {
+  background: #DC9BEC;
+}

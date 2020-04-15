@@ -138,6 +138,8 @@ table {
 
 html {
     box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 
@@ -154,7 +156,7 @@ body {
     line-height: 1.5rem;
     color: #292929;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
 }
 
 
@@ -171,17 +173,18 @@ body {
     color: #fff;
 }
 
-.header .blog-name {
+.header .blogname {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #fff
+    color: #fff;
+    padding: 0.5rem;
 }
 
-.header .blog-name a {
-    color: #fff
+.header .blogname a {
+    color: #fff;
 }
 
-.header .blog-name a:hover {
+.header .blogname a:hover {
     text-decoration: none;
     transition: 1s ease;
     opacity: 1s;
@@ -218,15 +221,15 @@ body {
 /*------------Login button and input styles------------*/
 
 .btn-primary {
-    color: #fff
+    color: #fff;
 }
 
 .theme-bg-light {
-    background: #fafafa !important
+    background: #fafafa;
 }
 
 .theme-bg-dark {
-    background: gray !important
+    background: gray;
 }
 
 
@@ -332,7 +335,7 @@ fa-facebook {
     padding-bottom: 0.5rem;
 }
 
-.intro {
+.pragarph {
     font-family: serif;
     color: gray;
 }
@@ -353,7 +356,7 @@ a:hover {
     opacity: 1s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
     .theme-btn-template {
         width: inherit;
         display: inline-block;
@@ -366,13 +369,13 @@ a:hover {
 
 /*-------------The header sidebar styles from Media queries------------*/
 
-@media (max-width: 991.98px) {
+@media (max-width: 1000px) {
     .header {
         position: static;
         width: inherit;
         height: auto;
     }
-    .header .blog-name {
+    .header .blogname {
         width: 100%;
         position: absolute;
         left: 0;
@@ -397,7 +400,7 @@ a:hover {
     padding: 1rem;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 760px) {
     .signup-form .form-group {
         width: 100%;
         margin-bottom: 0.5rem;
@@ -411,11 +414,19 @@ a:hover {
 }
 
 
-/*--------Style of time and Comments Layout----------*/
+/*--------Social time and Comments layout Styles----------*/
 
-.meta {
+.social {
     font-size: 0.6rem;
     color: gray;
+}
+
+.social a {
+    color: red;
+}
+
+.social .date {
+    color: blue;
 }
 
 
@@ -430,11 +441,27 @@ a:hover {
     text-align: center;
     display: inline-block;
     padding: 1rem;
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
     font-family: bold;
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
+}
+
+.previousnext {
+    text-align: center;
+}
+
+@media (max-width: 869px) {
+    .previousnext .btn {
+        width: 49%;
+    }
+}
+
+.previousnext .btn {
+    width: 35%;
+    background-color: #007bff;
+    height: 3rem;
 }
 
 
@@ -452,20 +479,4 @@ a:hover {
     color: white;
     font-size: 1rem;
     background-color: #292929;
-}
-
-@media (max-width: 869px) {
-    .previousnext .btn {
-        width: 100%;
-    }
-}
-
-.previousnext {
-    text-align: center;
-}
-
-.previousnext .btn {
-    width: 35%;
-    background-color: #007bff;
-    height: 3rem;
 }

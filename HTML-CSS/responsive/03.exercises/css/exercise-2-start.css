@@ -1,0 +1,34 @@
+/* VARIANTE BOOTSTRAP
+ * Points de ruptures:
+ * 576px -> 768px -> 992px -> 1200px
+--------------------------------------------*/
+
+
+/* STYLES PAR DEFAUT - POUR "PHONES" < 576px
+--------------------------------------------*/
+
+
+
+/* POUR "PHONES"
+ * @media (min-width: 576px)
+--------------------------------------------*/
+
+
+
+/* POUR "TABLETTES" orientation PORTRAIT
+ * @media (min-width: 768px)
+--------------------------------------------*/
+
+
+
+/* POUR "TABLETTES" orientation PAYSAGE
+ * et écrans petite résolution
+ * @media (min-width: 992px)
+--------------------------------------------*/
+
+
+
+/* POUR ORDINATEURS AFFICHAGE HD
+ * @media (min-width: 1200px)
+--------------------------------------------*/
+/* rien à faire... */

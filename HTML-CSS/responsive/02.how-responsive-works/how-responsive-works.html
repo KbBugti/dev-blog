@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>CSS - Media Queries</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://poco.squarelabel.com/assets/common/prism.css">
+	<link rel="stylesheet" href="https://poco.squarelabel.com/assets/common/common.css">
+	<style>
+		/* COMMON (not related to media queries)
+			------------------------------------*/
+		ul {
+			margin-left: 2em;
+			list-style: disc;
+			list-style-position: inside;
+		}
+
+		/*Common styles for the box*/
+		#box {
+			width: 100%;
+			padding: 3em 10%;
+			text-align: center;
+		}
+
+		#box::after {
+			display: block;
+			text-align: center;
+			font-weight: 700;
+			margin-top: 1em;
+		}
+
+		#box h2 {
+			line-height: 1.5;
+		}
+
+		.focus-arrow {
+			font-size: 2em;
+		}
+
+
+		/*DEFAULT STYLES (for the desktop or mobile depending on your approach)
+			------------------------------------*/
+		#box {
+			background: #ccc;
+		}
+
+		#box::after {
+			content: "[ no media query, default styles ]";
+		}
+
+
+		/* MEDIA QUERIES STYLES
+			------------------------------------*/
+		/* Breakpoint 1 - landscape tablets  */
+		@media (max-width: 1024px) {
+			#box {
+				background: #AED6F1;
+			}
+
+			#box::after {
+				content: "@media (max-width: 1024px)";
+			}
+		}
+
+		/* Breakpoint 2 - portrait tablets  */
+		@media screen and (max-width: 768px) {
+			#box {
+				background: #A569BD;
+				color: #fff;
+			}
+
+			#box::after {
+				content: "@media (max-width: 768px)";
+			}
+		}
+
+		/* Breakpoint 3 - landscape phones  */
+		@media screen and (max-width: 667px) {
+			#box {
+				background: #CB4335;
+			}
+
+			#box::after {
+				content: "@media (max-width: 667px)";
+			}
+
+			pre {
+				display: none;
+			}
+		}
+
+		/* Breakpoint 4 - portrait phones  */
+		@media screen and (max-width: 480px) {
+			body {
+				text-align: center;
+			}
+
+			#box {
+				background: #2E4053;
+			}
+
+			#box::after {
+				content: "@media (max-width: 480px)";
+			}
+		}
+
+		/*ONLY FOR PRINT*/
+		@media print {
+			body {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				color: #000;
+				background: #fff;
+			}
+
+			#box {
+				background: #fff;
+				color: #000;
+			}
+
+			pre {
+				page-break-before: always;
+				/*be sure to start on a new page to avoid to cut out code lines*/
+			}
+
+			@page {
+				margin: 2cm;
+			}
+		}
+	</style>
+
+</head>
+
+
+<body>
+
+	<main>
+
+		<article>
+
+			<header>
+				<h1>CSS - Media Queries</h1>
+				<p>Added in CSS3, the media queries allow to <span class="R">adapt the presentation of the content</span> to a
+					wide range of devices <span class="R">without changing the content itself</span>.</p>
+				<p class="R MT-1">We can change the media queries according to: </p>
+				<ul>
+					<li>Type of media (screen, print, ...)</li>
+					<li>Device Width/Height</li>
+					<li>Device Orientation</li>
+				</ul>
+				<p class="R MT-1">Usage examples :</p>
+				<ul>
+					<li>@media screen (min-width: 400px) { <span class="grey">/*your styles here*/</span> }</li>
+					<li>@media print { <span class="grey">/*your styles for print here*/</span> }</li>
+					<li>@media screen (min-width: 1024px) and (orientation: landscape) { <span class="grey">/*your styles
+							here*/</span> }</li>
+				</ul>
+			</header>
+
+			<!-- EXEMPLES -->
+			<section>
+				<h2 class="AC">Example (resize the browser window to see the changes)</h2>
+				<p class="AC MT-2 focus-arrow">↓↓↓</p>
+				<div id="box">
+					<h2>I will have a different background at each break point</h2>
+				</div>
+				<p class="AC MB-2 focus-arrow">↑↑↑</p>
+
+				<pre class="MW-800 MA"><code class="language-css">
+					/*DEFAULT STYLES (for the desktop or mobile depending on your approach)
+					------------------------------------*/
+					#box {
+						background: #ccc;
+					}
+					#box::after {
+						content: "[ no media query, default styles ]";
+					}
+		
+		
+					/* MEDIA QUERIES STYLES
+					------------------------------------*/
+					/* Breakpoint 1 - landscape tablets  */
+					@media (max-width: 1024px) {
+						#box {
+							background: #AED6F1;
+						}
+						#box::after {
+							content: "@media (max-width: 1024px)";
+						}
+					}
+		
+					/* Breakpoint 2 - portrait tablets  */
+					@media screen and (max-width: 768px) {
+						#box {
+							background: #A569BD;
+							color: #fff;
+						}
+						#box::after {
+							content: "@media (max-width: 768px)";
+						}
+					}
+		
+					/* Breakpoint 3 - landscape phones  */
+					@media screen and (max-width: 667px) {
+						#box {
+							background: #CB4335;
+						}
+						#box::after {
+							content: "@media (max-width: 667px)";
+						}
+
+						pre {
+							display: none;
+						}
+					}
+		
+					/* Breakpoint 4 - portrait phones  */
+					@media screen and (max-width: 480px) {
+						body {
+							text-align: center;
+						}
+
+						#box {
+							background: #2E4053;
+						}
+						#box::after {
+							content: "@media (max-width: 480px)";
+						}
+					}
+		
+					/*ONLY FOR PRINT*/
+					@media print {
+						body {
+							width: 100%;
+							margin: 0;
+							padding: 0;
+							color: #000;
+							background: #fff;
+						}
+						#box {
+							background: #fff;
+							color: #000;
+						}
+						/*be sure to start on a new page to avoid to cut out code lines*/
+						pre {
+							page-break-before: always; 
+						}
+						@page {
+							margin: 2cm;
+						}
+					}
+				</code></pre>
+			</section>
+
+		</article>
+
+	</main>
+
+
+	<footer>
+		<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"
+				target="_blank">Using media queries</a></p>
+		<p><a href="https://mydevice.io/devices/" target="_blank">mydevice.io</a></p>
+	</footer>
+
+	<script src="https://poco.squarelabel.com/assets/common/prism.js"></script>
+</body>
+
+</html>

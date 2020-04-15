@@ -1,0 +1,108 @@
+/* VARIANTE BOOTSTRAP
+ * Points de ruptures:
+ * 576px -> 768px -> 992px -> 1200px
+--------------------------------------------*/
+
+
+/* PAR DEFAUT < 576px
+--------------------------------------------*/
+/* background du body: #222; */
+/* font-size du h1: 1.2em */
+/* couleur du h1: #212121; */
+/* background du h1: #fff; */
+body {
+  background: #222;
+}
+
+h1 {
+  padding: 2em;
+  font-size: 1.2em;
+  text-align: center;
+
+  color: #212121;
+  background: #fff;
+}
+
+
+/* POUR "PHONES"
+ * @media (min-width: 576px)
+--------------------------------------------*/
+/* background du body: #3a3a3a; */
+/* font-size du h1: 1.4em */
+/* background du h1: #f5f5f5; */
+@media (min-width: 576px) {
+  body {
+    background: #3a3a3a;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    background: #f5f5f5;
+  }
+}
+
+
+
+/* POUR "TABLETTES" orientation PORTRAIT
+ * @media (min-width: 768px)
+--------------------------------------------*/
+/* background du body: #555; */
+/* font-size du h1: 1.6em */
+/* background du h1: #e5e5e5; */
+@media (min-width: 768px) {
+
+  body {
+    background: #555;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    background: #e5e5e5;
+  }
+
+}
+
+
+/* POUR "TABLETTES" orientation PAYSAGE
+ * et écrans petite résolution
+ * @media (min-width: 992px)
+--------------------------------------------*/
+/* background du body: #777; */
+/* font-size du h1: 2em */
+/* couleur du h1: #fff; */
+/* background du h1: #aaa; */
+@media (min-width: 992px) {
+
+  body {
+    background: #777;
+  }
+
+  h1 {
+    font-size: 2em;
+    background: #aaa;
+    color: #fff;
+  }
+
+}
+
+
+/* POUR ORDINATEURS AFFICHAGE HD
+ * @media (min-width: 1200px)
+--------------------------------------------*/
+/* background du body: #e5e5e5; */
+/* font-size du h1: 3em */
+/* background du h1: #333; */
+/* couleur du h1: #e5e5e5; */
+@media (min-width: 1200px) {
+
+  body {
+    background: #e5e5e5;
+  }
+
+  h1 {
+    font-size: 3em;
+    background: #333;
+    color: #e5e5e5;
+  }
+
+}

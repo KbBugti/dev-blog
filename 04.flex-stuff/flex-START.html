@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FLEX - Basic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- CUSTOM FONT -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <!-- DEMO STYLES -->
+    <link rel="stylesheet" href="css/demo.css">
+
+    <!-- STYLES POUR CETTE PAGE -->
+    <style>
+        .container div {
+            width: 23%;
+        }
+        
+        .flex {}
+        
+        .flex.wrap {
+            flex-wrap: wrap;
+        }
+        
+        .flex.no-wrap {}
+        
+        .space-between {
+            justify-content: space-between;
+        }
+        
+        .space-around {
+            justify-content: space-around;
+        }
+        
+        .space-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .flex-start {
+            justify-content: flex-start;
+        }
+        
+        .flex-end {
+            justify-content: flex-end;
+        }
+        
+        .center-center {}
+        
+        .align-content {}
+        
+        .columns {
+            flex-direction: column;
+        }
+        
+        .columns.center {
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        
+        .columns.right {
+            align-items: flex-right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <article>
+
+        <h1>FLEX STUFF</h1>
+        <section class="exemple">
+            <h2>Flex - basic, no wrap</h2>
+            <div class="container flex no-wrap">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+                <div>Flex item 6</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, space-between</h2>
+            <div class="container flex wrap space-between">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+                <div>Flex item 6</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, space-around</h2>
+            <div class="container flex wrap space-around">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, space-evenly</h2>
+            <div class="container flex wrap space-evenly">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, empty elements</h2>
+            <div class="container flex wrap space-evenly">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+                <div>Flex item 6</div>
+                <div>Flex item 7</div>
+                <div class="holder"></div>
+                <div class="holder"></div>
+                <div class="holder"></div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, wrap-start</h2>
+            <div class="container flex wrap flex-start">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Justify Content - wrap, wrap-end</h2>
+            <div class="container flex wrap flex-end">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Columns</h2>
+            <div class="container flex columns">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <h2>Flex Columns Center</h2>
+            <div class="container flex columns center">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+
+
+        <section class="exemple">
+            <h2>Flex Columns Right</h2>
+            <div class="container flex columns right">
+                <div>Flex item 1</div>
+                <div>Flex item 2</div>
+                <div>Flex item 3</div>
+                <div>Flex item 4</div>
+                <div>Flex item 5</div>
+            </div>
+        </section>
+    </article>
+
+
+    <!-- FOOTER - ressources -->
+    <footer class="footer">
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" target="_blank">MDN - Basic concepts of flexbox</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks - A Complete Guide to Flexbox</a></li>
+            <li><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a></li>
+            <li><a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank">Flexbox CSS In 20 Minutes (YouTube)</a></li>
+
+        </ul>
+    </footer>
+
+</body>
+
+</html>

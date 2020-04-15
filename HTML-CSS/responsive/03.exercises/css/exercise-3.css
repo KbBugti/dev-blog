@@ -1,0 +1,146 @@
+/* BOOTSTRAP 4 VARIANT
+ * Breakpoints:
+ * 576px -> 768px -> 992px -> 1200px
+--------------------------------------------*/
+
+
+/* DEFAULT - FOR "PHONES" PORTRAIT
+ * < 576
+--------------------------------------------*/
+/* HEADER */
+header {
+  height: 80px;
+  padding: 0 25px;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  line-height: 62px;
+}
+#nav {
+  width: 50px;
+  height: 50px;
+}
+#hamburger {
+  display: block;
+  width: 100%;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+#menu {
+  display: none;
+}
+
+/* TITLE */
+h1 {
+  height: 80px;
+  font-size: 1.5em;
+}
+
+/* SECTION */
+section {
+  padding: 3%;
+}
+section .contenu {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  height: 100px;
+}
+
+
+
+/* FOR "PHONES" LANDSCAPE or PORTRAIT LARGE
+ * >= 576
+--------------------------------------------*/
+@media (min-width: 576px) {
+  /* Nothing to do, for this layout we have the same as the default... */
+}
+
+
+/* FOR "TABLETS" PORTRAIT orientation
+ * >= 768
+--------------------------------------------*/
+@media (min-width: 768px) {
+  header, h1, footer {
+    height: 100px;
+  }
+
+  header {
+    padding: 0 40px;
+  }
+  #logo {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    line-height: 70px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  section {
+    padding: 5%;
+  }
+}
+
+
+/* FOR "TABLETS" LANDSCAPE orientation 
+ * and small desktop resolution screens
+ * >= 992
+--------------------------------------------*/
+@media (min-width: 992px) {
+  header, h1, footer {
+    height: 140px;
+  }
+
+  #nav {
+    width: 70%;
+    text-align: right;
+    height: auto;
+    background: none;
+  }
+  #hamburger {
+    display: none;
+  }
+  #menu {
+    display: block;
+    width: 100%;
+  }
+  #menu li {
+    display: inline-block;
+  }
+  #menu li a {
+    display: block;
+    padding: .3em 1em;
+    margin-left: 2em;
+  }
+  #menu li:last-child a {
+    padding-right: 0;
+  }
+
+  section {
+    padding: 5%;
+  }
+  section .contenu {
+    max-width: 900px;
+    margin: auto;
+  }
+}
+
+
+/* FOR COMPUTERS large displays
+ * >= 1200
+--------------------------------------------*/
+@media (min-width: 1200px) {
+  header, h1, footer {
+    height: 140px;
+  }
+
+  section .contenu {
+    max-width: 960px;
+  }
+}

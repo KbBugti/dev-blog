@@ -1,0 +1,52 @@
+/* VARIANTE BOOTSTRAP
+ * Points de ruptures:
+ * 576px -> 768px -> 992px -> 1200px
+--------------------------------------------*/
+
+
+
+/* PAR DEFAUT < 576px
+--------------------------------------------*/
+/* background du body: #222; */
+/* font-size du h1: 1.2em */
+/* couleur du h1: #212121; */
+/* background du h1: #fff; */
+
+
+
+/* POUR "PHONES"
+ * @media (min-width: 576px)
+--------------------------------------------*/
+/* background du body: #555; */
+/* font-size du h1: 1.6em */
+/* background du h1: #e5e5e5; */
+
+
+
+/* POUR "TABLETTES" orientation PORTRAIT
+ * @media (min-width: 768px)
+--------------------------------------------*/
+/* background du body: #555; */
+/* font-size du h1: 1.6em */
+/* background du h1: #e5e5e5; */
+
+
+
+/* POUR "TABLETTES" orientation PAYSAGE
+ * et écrans petite résolution
+ * @media (min-width: 992px)
+--------------------------------------------*/
+/* background du body: #777; */
+/* font-size du h1: 2em */
+/* couleur du h1: #fff; */
+/* background du h1: #aaa; */
+
+
+
+/* POUR ORDINATEURS AFFICHAGE HD
+ * @media (min-width: 1200px)
+--------------------------------------------*/
+/* background du body: #e5e5e5; */
+/* font-size du h1: 3em */
+/* couleur du h1: #e5e5e5; */
+/* background du h1: #333; */

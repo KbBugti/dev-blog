@@ -1,0 +1,41 @@
+/* CSS en commun, pour ne pas poluer les styles mobile, desktop... */
+
+/* HEADER */
+header {
+  background: #D8D8D8;
+}
+
+/* TITRES */
+h1 {
+  font-size: 2em;
+  padding: .5em 0;
+}
+h2 {
+  font-size: 1.2em;
+}
+
+/*HEADER*/
+header {
+  padding: 2em 0;
+}
+
+/* SECTION */
+section {
+  min-height: 240px;
+}
+#section-1 {
+  background: #D0D57E;
+}
+#section-2 {
+  background: #A4EBFF;
+}
+/* CONTENU SECTION */
+section .contenu {
+
+}
+
+/* FOOTER */
+footer {
+  padding: 1em 0;
+  background: #DC9BEC;
+}
