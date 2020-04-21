@@ -1,7 +1,7 @@
 
 # Welcome to my README profile... 
 
-# This is my blog desinged by me:)
+# Please check out my new blog:)
 https://kbbugti.github.io/dev-blog/Myblog/index.html
 
 
