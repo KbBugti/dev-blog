@@ -1,6 +1,8 @@
 
 # Welcome to my README profile... 
 
+# This is my blog desinged by me:)
+https://kbbugti.github.io/dev-blog/
 
 
 How to become a developer and get your first job as quickly as possible
