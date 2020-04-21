@@ -202,11 +202,19 @@ body {
     color: white;
 }
 
-.profile-image {
-    width: 10rem;
-    height: 11rem;
-    padding-top: 1rem;
-    border-radius: 1rem;
+.pf-section {
+    padding-top: 16px;
+}
+
+.pf-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.mb-3 a:hover {
+    transition: 1s ease;
+    color: purple;
 }
 
 .btn {
@@ -459,20 +467,11 @@ a:hover {
     text-align: center;
 }
 
-@media (max-width: 869px) {
-    .previousnext .btn {
-        width: 49%;
-    }
-    .previousnext a {
-        color: white;
-        transition: 1s ease-in-outs;
-    }
-}
-
 .previousnext .btn {
-    width: 35%;
+    width: 45%;
     background-color: #007bff;
     height: 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -484,6 +483,7 @@ a:hover {
 
 .footer {
     text-align: center;
+    width: 100%;
     color: white;
     font-size: 1rem;
     background-color: #292929;
