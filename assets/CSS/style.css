@@ -142,6 +142,12 @@ html {
     scroll-behavior: smooth;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
 
 /*#endregion*/
 
@@ -178,6 +184,7 @@ body {
     font-size: 1.5rem;
     color: #fff;
     padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 .header .blogname a {
@@ -207,7 +214,6 @@ body {
     padding: 0.5rem;
     height: 2.5rem;
     transition: all 0.4s ease-in-out;
-    transition: none;
 }
 
 @media (max-width: 700px) {
@@ -291,7 +297,7 @@ fa-facebook {
 
 /*-------------The styles of Icons Status--------------*/
 
-.fas {
+ul .fas {
     padding: 0.35rem;
     display: inline-block;
     color: white;
@@ -299,7 +305,8 @@ fa-facebook {
 }
 
 
-/*------------This is the mainpage wrapper and Template section styles-------------*/
+/*This is the mainpage wrapper and Template section styles
+---------------------------------------------------------*/
 
 .img-fluid {
     width: 8rem;
@@ -356,20 +363,10 @@ a:hover {
     opacity: 1s;
 }
 
-@media (min-width: 760px) {
-    .theme-btn-template {
-        width: inherit;
-        display: inline-block;
-    }
-    .template-section .form-inline .form-control {
-        width: 360px;
-    }
-}
-
 
 /*-------------The header sidebar styles from Media queries------------*/
 
-@media (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 980px) {
     .header {
         position: static;
         width: inherit;
@@ -378,8 +375,8 @@ a:hover {
     .header .blogname {
         width: 100%;
         position: absolute;
-        left: 0;
-        top: 1.2rem;
+        left: 1rem;
+        top: 0.3rem;
     }
     .header .btn-primary {
         width: 100%;
@@ -389,6 +386,16 @@ a:hover {
     }
     .mainpage-wrapper {
         margin-left: 0;
+    }
+}
+
+@media (min-width: 760px) {
+    .theme-btn-template {
+        width: inherit;
+        display: inline-block;
+    }
+    .template-section .form-inline .form-control {
+        width: 360px;
     }
 }
 
@@ -456,6 +463,10 @@ a:hover {
     .previousnext .btn {
         width: 49%;
     }
+    .previousnext a {
+        color: white;
+        transition: 1s ease-in-outs;
+    }
 }
 
 .previousnext .btn {
@@ -466,9 +477,6 @@ a:hover {
 
 
 /*---------Fotter and Heart icon color---------*/
-
-
-/*---------Footer and Heart icon color---------*/
 
 .fa-heart {
     color: blue;
