@@ -5,7 +5,7 @@
 https://kbbugti.github.io/dev-blog/Myblog/index.html
 
 
-# How to make a CV in Github README file.
+# How to make a CV README or a normal file in Github.
 
 ![pf-img](https://user-images.githubusercontent.com/63241056/80488660-fba44780-895e-11ea-84e0-11519cb6701d.jpg)
 <br>
