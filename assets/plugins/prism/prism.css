@@ -1,5 +1,5 @@
 /* PrismJS 1.20.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+json+less+markup-templating+php+python+scss+sql&plugins=line-numbers+keep-markup+unescaped-markup+normalize-whitespace+toolbar */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+json+less+markdown+python+scss+sql&plugins=line-numbers+keep-markup+unescaped-markup+normalize-whitespace+toolbar */
 
 
 /**
@@ -11,7 +11,7 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
 code[class*="language-"],
 pre[class*="language-"] {
     color: #f8f8f2;
-    background: black;
+    background: none;
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 1em;

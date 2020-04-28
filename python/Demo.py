@@ -1,11 +1,11 @@
-Character_name = "KB"
-Character_age = "25"
+Character_name = "Khuda Bakhsh"
+Character_age = "27"
 Is_Male = False
 print("My friend name: " + Character_name +  ", ")
 print("And his age: " + Character_age + ", ")
 
 
-Character_name = "Valerie"
+Character_name = "Nina"
 Character_age = "age"
 Character_birth = "01.05.1990"
 Character_id = "28893"
