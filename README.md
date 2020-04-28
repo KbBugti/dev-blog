@@ -5,17 +5,85 @@
 https://kbbugti.github.io/dev-blog/Myblog/index.html
 
 
-How to become a developer and get your first job as quickly as possible
+# How to make a CV in Github README file.
 
-> Duties & Responsibilities
->>Education, Training & Certification
->>>Skills & Competencies
+![images](https://user-images.githubusercontent.com/63241056/80477983-1cfc3800-894d-11ea-980e-2ef16071edc1.jpg)
+
+    KhudaBakhsh Bugti
+    Chemin du drink water
+    Switzerland
+    Switzerland@gmail.suisse.ch           
+    Switzerland
+    Permit none
+
+
+#
+### OBJECTIVE
+     My dream is to become a web or software developer.
+
+#
+### QUALITY
+     polyvalent, responsible, punctual, persevering, friendly and social.  
+
+#
+### SKILLS
+    Quite good knowledge HTML, CSS, Boostrap and some knowledge in SQL, Python, and JavaScript.
+
+#
+### PROFESSIONAL EXPERIENCE
+* Experience as a programmer or in similar, relevant role
+* Quite good knowledge HTML, CSS, Boostrap
+* Some Programming knowledge in JavaScript, SQL, and Python
+* Experience in developing webSites and some knowledge in relational databases, such as SQL
+* Strong attention to details and ability to concentrate
+* Excellent critical thinking and analytical skills
+
+#
+### FORMATION
+    2020 Powercoders School 
+    2019 French School courses
+    2014 French School Courses
+    2002 High School
+
+#
+### LANGUAGE SKILLS
+    Baluchi Mother tongue
+    English Written and spoken, fluent
+    Urdu Written and spoken, fluent
+    French Medium knowledge
+
+#
+### LEISURE
+    Fitness / Swimming / Reading / Travel
+
+
+
+<br>
+<br>
+<br>
+
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 # How to become a developer and get your first job as quickly as possible
 
+* Duties & Responsibilities
+* Education, Training & Certification
+* Skills & Competencies
+## How to become a developer and get your first job as quickly as possible
 
 
 
-> This *repository* will ~~Duties & Responsibilities~~
+
+> This *repository* will Duties & Responsibilities
 
 >> **Education, Training & Certification**
 
