@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My post template</title>
+
+
     <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
     <link rel="stylesheet" href="../assets/css/post-template.style.css">
 </head>
 
 <body>
-    <main>
+    <main id="contain">
         <h1>JavaScript Array</h1>
         <h2>Arrays permits to store simple data.</h2>
 
@@ -18,7 +21,7 @@
 
         <pre>
           <code class="language-js">
-            <!-- // How to make arrays -->
+            // How to make arrays
 
             let vagitable = ["potato", "brokkoli", "tomatos"];
             console.log(vagitable);
@@ -26,18 +29,18 @@
             let last = first[vagitable - 1];
             
             
-            <!-- // Function -->
+            // Function
 
             function vagitables(item, index, array) {
                 console.log(item, index);
             
             }
 
-            <!-- // this is how to add the items in the string -->
+            // this is how to add the items in the string
 
             vagitable.push("Mango", "Banana", "Apple");
             
-            <!-- // this is how to remove the items -->
+            // this is how to remove the items
 
             vagitable.splice(0, 2);
             
@@ -45,9 +48,11 @@
         </pre>
 
         <pre>
-          <code>
-            .vagitable{
+          <code class="language-css">
+            #contain{
+              font-width: 10%;
               width: 50%;
+              hieght: 50%
             }
           </code>
         </pre>
@@ -55,7 +60,7 @@
     </main>
 
 
-    <script src="../assets/pugins/prism/prism.js"></script>
+    <script src="../assets/plugins/prism/prism.js"></script>
 </body>
 
 </html>
