@@ -452,6 +452,13 @@ a:hover {
     padding-top: 4rem;
 }
 
+.previous-next a:hover {
+    text-decoration: none;
+    color: rebeccapurple;
+    transition: all 1s ease;
+    opacity: 1s;
+}
+
 .next {
     text-align: center;
     display: inline-block;
@@ -473,6 +480,13 @@ a:hover {
     height: 3rem;
     margin-top: 2rem;
     color: white;
+}
+
+.previousnext a:hover {
+    text-decoration: none;
+    color: rebeccapurple;
+    transition: all 1s ease;
+    opacity: 1s;
 }
 
 
