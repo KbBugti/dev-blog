@@ -29,12 +29,12 @@ https://kbbugti.github.io/dev-blog/Myblog/index.html
 
 #
 ### SKILLS
-    Quite good knowledge HTML, CSS, Boostrap and some knowledge in SQL, Python, and JavaScript.
+    Quite good knowledge in HTML, CSS, Boostrap and some knowledge in SQL, Python, and JavaScript.
 
 #
 ### PROFESSIONAL EXPERIENCE
 * Experience as a programmer or in similar, relevant role
-* Quite good knowledge HTML, CSS, Boostrap
+* Quite good knowledge in HTML, CSS, Boostrap
 * Some Programming knowledge in JavaScript, SQL, and Python
 * Experience in developing webSites and some knowledge in relational databases, such as SQL
 * Strong attention to details and ability to concentrate
