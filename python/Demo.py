@@ -1,6 +1,6 @@
-Character_name = "Khuda Bakhsh"
+Character_name = "KhudaBakhsh"
 Character_age = "27"
-Is_Male = False
+Is_Male = True
 print("My friend name: " + Character_name +  ", ")
 print("And his age: " + Character_age + ", ")
 
