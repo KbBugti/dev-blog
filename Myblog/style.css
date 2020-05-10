@@ -252,8 +252,8 @@ body {
 .fa {
     padding: 0.35rem;
     font-size: 1.25rem;
-    width: 2rem;
-    height: 2rem;
+    width: 32px;
+    height: 32px;
     text-align: center;
     text-decoration: none;
     margin: 0.625rem 0.3rem;
@@ -305,12 +305,17 @@ fa-facebook {
 
 /*-------------The styles of Icons Status--------------*/
 
-ul .fas {
+ul a .fas {
     padding: 0.35rem;
-    display: inline-block;
+    display: block;
     color: white;
     text-decoration: none;
 }
+
+
+/* ul li .nav-link .fa-home {
+    margin-right: 25px;
+} */
 
 
 /*This is the mainpage wrapper and Template section styles
@@ -374,7 +379,7 @@ a:hover {
 
 /*-------------The header sidebar styles from Media queries------------*/
 
-@media (min-width: 320px) and (max-width: 980px) {
+@media (min-width: 370px) and (max-width: 980px) {
     .header {
         position: static;
         width: inherit;
@@ -429,7 +434,7 @@ a:hover {
 }
 
 
-/*--------Social time and Comments layout Styles----------*/
+/*--------Social, time and Comments layout Styles----------*/
 
 .social {
     font-size: 0.6rem;
@@ -455,8 +460,7 @@ a:hover {
 .previous-next a:hover {
     text-decoration: none;
     color: rebeccapurple;
-    transition: all 1s ease;
-    opacity: 1s;
+    transition: 1s ease;
 }
 
 .next {
@@ -490,7 +494,7 @@ a:hover {
 }
 
 
-/*---------The last Fotter and Heart icon---------*/
+/*---------The last Fotter and the Heart icon---------*/
 
 .fa-heart {
     color: blue;

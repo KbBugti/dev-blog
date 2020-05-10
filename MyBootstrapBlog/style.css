@@ -1,7 +1,7 @@
 img {
     width: 100%;
     height: 300px;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .collapse {
@@ -37,10 +37,11 @@ img {
 .text-scroll {
     font-family: cursive;
     font-size: 20px;
-    color: bisque;
+    color: purple;
 }
 
 .container {
+    width: 100%;
     background-color: darkkhaki;
 }
 
@@ -50,4 +51,47 @@ img {
 
 .card-header {
     background-color: rgb(245, 240, 240);
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    color: purple;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+
+/* input .form-inline {
+    width: 300px;
+    text-align: right;
+} */
+
+@media (min-width: 370px) and (max-width: 980px) {
+    .container {
+        position: static;
+        width: inherit;
+        height: auto;
+    }
+    .container .img {
+        width: 100%;
+    }
+    .container .bg-primary {
+        padding: 1rem;
+    }
+    .dropdown-menu {
+        width: 100%;
+    }
+    .container nav #navbarSupportedContent {
+        width: 100%;
+    }
+    .form-inline .form-control {
+        width: 100%;
+    }
+    .btn-outline-success {
+        width: 100%;
+    }
 }

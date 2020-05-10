@@ -1,8 +1,5 @@
 /** Grocery List:
-Bananas (5)
-Chees Burgar (3)
-Chocolate (1)
-
+--------------------------------------
 **/
 
 CREATE TABLE groceries (id INTEGER PRIMARY KEY, name text, Birth INTEGER, pass_id INTEGER);
