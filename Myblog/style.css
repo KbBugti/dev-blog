@@ -318,7 +318,7 @@ ul a .fas {
 } */
 
 
-/*This is the mainpage wrapper and Template section styles
+/*The mainpage wrapper and Template section styles
 ---------------------------------------------------------*/
 
 .img-fluid {
@@ -377,7 +377,7 @@ a:hover {
 }
 
 
-/*-------------The header sidebar styles from Media queries------------*/
+/*-------------Media queries------------*/
 
 @media (min-width: 370px) and (max-width: 980px) {
     .header {
