@@ -1,8 +1,9 @@
 
 # Welcome to my README profile... 
 
-# Please check out my new blog:)
+# Please check out my new blogs:)
 https://kbbugti.github.io/dev-blog/Myblog/index.html
+https://kbbugti.github.io/dev-blog//My-recent-blog/index.html
 
 
 # How to make a CV in README or in a normal file in Github.
