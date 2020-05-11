@@ -3,6 +3,7 @@
 
 # Please check out my new blogs:)
 https://kbbugti.github.io/dev-blog/Myblog/index.html
+<br>
 https://kbbugti.github.io/dev-blog//My-recent-blog/index.html
 
 
