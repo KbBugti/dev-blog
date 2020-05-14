@@ -4,7 +4,7 @@
 # Please check out my new blogs:)
 https://kbbugti.github.io/dev-blog/Myblog/index.html
 <br>
-https://kbbugti.github.io/dev-blog//My-recent-blog/index.html
+https://kbbugti.github.io/dev-blog//Myblog2/index.html
 
 
 # How to make a CV in README or in a normal file in Github.
