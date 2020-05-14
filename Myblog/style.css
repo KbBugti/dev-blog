@@ -379,7 +379,7 @@ a:hover {
 
 /*-------------Media queries------------*/
 
-@media (min-width: 370px) and (max-width: 980px) {
+@media (min-width: 360px) and (max-width: 980px) {
     .header {
         position: static;
         width: inherit;

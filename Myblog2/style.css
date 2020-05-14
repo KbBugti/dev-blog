@@ -94,7 +94,7 @@ body {
 .menu-wrap .toggler {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 25px;
     z-index: 2;
     cursor: pointer;
     width: 50px;
@@ -210,6 +210,7 @@ body {
     width: 200vw;
     height: 200vw;
     flex: none;
+    /* padding-right: 1rem; */
     display: flex;
     align-items: center;
     justify-content: center;

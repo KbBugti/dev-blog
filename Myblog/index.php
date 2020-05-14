@@ -1,3 +1,17 @@
+<?php
+$page = "index.html";
+
+include("connection.php");
+
+
+$stmt = $conn->prepare("SELECT * FROM post");
+$stmt->execute();
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,9 +62,34 @@
 
 
                 <ul class="navbar-nav flex-column">
+                  <?php
+                  
+                  $arr = ["Home", "Blog Post", "About Me"];
+
+                  foreach($arr as $row){
+                      $icon ='';
+                    if($row == 'Home'){
+                      $icon .='home';
+                    }
+                   if($row == 'Blog Post'){
+                    $spin ='fa-spin';
+                    $icon .= 'cog';
+                   }
+                   if($row == 'About Me'){
+                       $icon .='user';
+                       $spin ='';
+                    }
+
+                    echo '
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
-                    </li>
+                        <a class="nav-link" href="#"><i class="fas '.$spin.' fa-'.$icon.'"></i>
+
+                        '.$row.'
+
+                        </a></li>
+                      ';
+                  }
+                    ?>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-cog fa-spin"></i>  Blog Post</a>
                     </li>
@@ -82,32 +121,39 @@
         </section>
         <section class="blog-list">
             <div class="container">
+                <?php while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
+
+                
+                ?>
                 <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="image1.jpg" alt="a cup of coffee">
+                        <img class="img-fluid" src="<?php echo $result['img']; ?>" alt="a cup of coffee">
                         <div class="media-body">
-                            <h3 class="title"><a href="#">How to become a developer.</a></h3>
+                            <h3 class="title"><a href="#"><?php echo $result['post_title']; ?></a></h3>
                             <div class="social"><span class="date">Published 6 days ago, </span><span class="time"> 34 min read,</span><span class="comment"><a href="#"> 41 comments</a></span></div>
-                            <p class="paragraph">Have you ever thought about becoming a software developer or looking for a change of career? This article will give you a solid plan to get you started in software development and get you your first job!</p>
-                            <a class="more-link" href="https://www.freecodecamp.org/news/become-a-developer-and-get-your-first-job-fast-7b8ac26d84c6/">Read more &raquo;</a>
+                            <p class="paragraph"><?php echo substr($result['post_description'], 0 , 200);?></p>
+                            <a class="more-link" href="post1.php?id=<?php echo $result['post_id']; ?>">Read more &raquo;</a>
                         </div>
                     </div>
                 </div>
-
+                <?php }
+                    
+                    ?>
+                
                 <!--item-->
-                <div class="item mb-5">
+                <!-- <div class="item mb-5">
                     <div class="media">
                         <img class="img-fluid" src="image2.jpg" alt="second columns image">
                         <div class="media-body">
                             <h3 class="title"><a href="#">Python Developer job description template.</a></h3>
                             <div class="social"><span class="date">Published 4 days ago, </span><span class="time"> 23 min read,</span><span class="comment"><a href="#"> 23 comments</a></span></div>
                             <p class="paragraph">This Python Developer job description template includes the list of most important Python Developer's duties and responsibilities. It is customizable and ready to post to job boards.</p>
-                            <a class="more-link" href="blog-post.html">Read more &raquo;</a>
+                            <a class="more-link" href="post1.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="item mb-5">
+                <!-- <div class="item mb-5">
                     <div class="media">
                         <img class="img-fluid" src="image3.png" alt="Third columns image">
                         <div class="media-body">
@@ -117,9 +163,9 @@
                             <a class="more-link" href="blog-post.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="item mb-5">
+                <!-- <div class="item mb-5">
                     <div class="media">
                         <img class="img-fluid" src="image4.jpg" alt="This is a mackbook">
                         <div class="media-body">
@@ -130,33 +176,36 @@
                             <a class="more-link" href="blog-post.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="item mb-5">
-                    <div class="media">
+                <!-- <div class="item mb-5"> -->
+                    <!-- <div class="media">
                         <img class="img-fluid" src="image5.jpg" alt="Fifth columns image">
                         <div class="media-body">
                             <h3 class="title"><a href="#">Bootstrap · The most popular HTML, CSS, and JS library in the world.</a></h3>
                             <div class="social"><span class="date">Published 5 days ago, </span><span class="time"> 34 min read,</span><span class="comment"><a href="#"> 9 comments</a></span></div>
                             <p class="paragraph">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins</p>
                             <a class="more-link" href="https://getbootstrap.com">Read more &raquo;</a>
-                        </div>
-                    </div>
+                        </div>  
+                    </div> -->
 
 
-                    <div class="previous-next">
+                   
+                    <div class="previous-next mb-5">
                         <a class="next btn" href="page1.html">Next &rarr;</a>
                     </div>
 
+                <!-- </div> -->
+
+                
+
                 </div>
-
-
-        </section>
 
         <footer class="footer py-2">
             <small class="copyright">Designed &copy; 2020 by <a href="#">Khuda Bakhsh Bugti <i class="fas fa-heart"></i> </a></small>
         </footer>
-        </div>
+        
+        </section>
 
 
 
