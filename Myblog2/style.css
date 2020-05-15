@@ -207,7 +207,7 @@ body {
 .menu-wrap .menu div {
     background: var(--overlay-color);
     border-radius: 50%;
-    width: 250vw;
+    width: 200vw;
     height: 200vw;
     flex: none;
     /* padding-right: 1rem; */
