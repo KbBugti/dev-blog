@@ -343,11 +343,10 @@ img {
 /* Footer */
 
 .footer {
-    text-decoration: none;
-    text-align: center;
     width: 100%;
     font-size: 1rem;
-    padding-bottom: 50%;
+    text-decoration: none;
+    text-align: center;
     color: black;
     background-color: #fff;
 }
