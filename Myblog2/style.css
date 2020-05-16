@@ -93,7 +93,7 @@ body {
 
 .menu-wrap .toggler {
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 25px;
     z-index: 2;
     cursor: pointer;
@@ -321,6 +321,16 @@ img {
     .container-fluid .col {
         width: 100%;
     }
+    .p-class {
+        width: 100%;
+        height: auto;
+    }
+    .container-fluid .contact-form form {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
 }
 
 
@@ -340,31 +350,49 @@ img {
 }
 
 
-/* The styles of the Posts which are sepritaly connected in the place of HTML link */
+/* The styles of the Posts which are sepritaly connected in the A href links */
 
 .p-class {
     background-color: var(--primary-color);
     width: 100%;
     height: 100%;
-    /* visibility: hidden; */
-    /* overflow: hidden; */
     text-align: left;
-    align-items: center;
-    justify-content: center;
 }
 
 .p-class h1 {
-    text-align: center;
+    text-align: left;
+    color: white;
+    font-size: 30px;
 }
 
 .p-class .paragraph {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300px;
     width: 100vw;
-    height: 50vw;
+    height: 100%;
     align-items: center;
     justify-content: center;
     background: white;
     padding-left: 1rem;
     break-inside: 1rem;
+}
+
+
+/* Contact section */
+
+.container-fluid .contact-form form {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
 }
