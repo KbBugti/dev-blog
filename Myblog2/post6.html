@@ -17,21 +17,24 @@
 </head>
 
 <body>
-    <div class="container-fluid contact-form">
+    <div class="container-fluid">
         <h1>For the contact please subscrib here</h1>
 
-        <form>
+        <form class="contact-form">
 
             <label for="fname">First name: </label>
-            <input class="fname" type="text" placeholder="Enter name" name="first nane">
+            <input type="text" placeholder="" name="fnane">
             <br>
             <label for="lname">Last name: </label>
-            <input class="lname" type="text" placeholder="Enter name" name="last nane">
+            <input type="text" placeholder="" name="lnane">
+            <br>
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" placeholder="Enter Email">
             <br>
             <label for="gender">Male</label>
-            <input class="gender" type="checkbox" placeholder="male" name="male">
+            <input type="checkbox" placeholder="male" name="male">
             <label for="gender">Female</label>
-            <input class="gender" type="checkbox" placeholder="Female" name="female">
+            <input type="checkbox" placeholder="Female" name="female">
 
             <select name="country">
                         <option value="">Country...</option>
@@ -46,9 +49,9 @@
             <br>
             <input id="submit-sec" type="submit" value="Submit">
             <br>
-
         </form>
     </div>
+
 
 
 
