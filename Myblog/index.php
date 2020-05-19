@@ -4,7 +4,7 @@ $page = "index.html";
 include("connection.php");
 
 
-$stmt = $conn->prepare("SELECT * FROM post");
+$stmt = $conn->prepare("SELECT * FROM blog_post");
 $stmt->execute();
 
 
@@ -47,7 +47,7 @@ $stmt->execute();
 			</button>
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse flex-column">
-                <div class="pf-section"><img src="images.jpg" alt="profile image"> </div>
+                <div class="pf-section"><img src="images/images.jpg" alt="profile image"> </div>
                 <p class="mb-3">Be strong and believe in your dreams, anything is possible.<br><a href="#">Read more</a></p>
                 <figure>
                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -127,12 +127,12 @@ $stmt->execute();
                 ?>
                 <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="<?php echo $result['img']; ?>" alt="a cup of coffee">
+                        <img class="img-fluid" src="images/<?php echo $result['img']; ?>" alt="a cup of coffee">
                         <div class="media-body">
                             <h3 class="title"><a href="#"><?php echo $result['post_title']; ?></a></h3>
                             <div class="social"><span class="date">Published 6 days ago, </span><span class="time"> 34 min read,</span><span class="comment"><a href="#"> 41 comments</a></span></div>
                             <p class="paragraph"><?php echo substr($result['post_description'], 0 , 200);?></p>
-                            <a class="more-link" href="post1.php?id=<?php echo $result['post_id']; ?>">Read more &raquo;</a>
+                            <a class="more-link" href="post1.php?id=<?php echo $result['id']; ?>">Read more &raquo;</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,61 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: May 19, 2020 at 07:34 PM
+-- Server version: 5.7.26
+-- PHP Version: 7.4.2
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `Myblog`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog_post`
+--
+
+CREATE TABLE `blog_post` (
+  `id` int(11) NOT NULL,
+  `post_title` varchar(200) NOT NULL,
+  `post_description` text NOT NULL,
+  `img` varchar(200) NOT NULL DEFAULT 'post_image.jpg',
+  `post_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `comments` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `blog_post`
+--
+
+INSERT INTO `blog_post` (`id`, `post_title`, `post_description`, `img`, `post_date`, `comments`) VALUES
+(1, 'How to become a developer.', 'Have you ever thought about becoming a software developer or looking for a change of career? This article will give you a solid plan to get you started in software development and get you your first job!', 'image1.jpg', '2020-05-19 17:42:52', 14),
+(2, 'Python Developer job description template.', 'This Python Developer job description template includes the list of most important Python Developer\'s duties and responsibilities. It is customizable and ready to post to job boards.', 'image2.jpg', '2020-05-19 21:11:48', 43),
+(3, 'Software Developer Duties & Responsibilities.', 'Developers can work in systems software or in applications such as those for mobile devices, but their duties are similar in many cases....', 'image3.png', '2020-05-19 21:15:13', 23),
+(4, 'HTML5 Developer job description template.', 'This HTML5 Developer job description template includes the list of most important HTML5 Developer \'s duties and responsibilities. It is customizable and ready to post to job boards. Use it to save time, attract qualified candidates and hire best employees', 'image4.jpg', '2020-05-19 21:15:15', 0),
+(5, 'Bootstrap · The most popular HTML, CSS, and JS library in the world.', 'Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.', 'image5.jpg', '2020-05-19 21:22:14', 0);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `blog_post`
+--
+ALTER TABLE `blog_post`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `blog_post`
+--
+ALTER TABLE `blog_post`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
