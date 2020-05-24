@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 19, 2020 at 07:34 PM
+-- Generation Time: May 19, 2020 at 09:32 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.4.2
 
@@ -34,7 +34,7 @@ CREATE TABLE `blog_post` (
 --
 
 INSERT INTO `blog_post` (`id`, `post_title`, `post_description`, `img`, `post_date`, `comments`) VALUES
-(1, 'How to become a developer.', 'Have you ever thought about becoming a software developer or looking for a change of career? This article will give you a solid plan to get you started in software development and get you your first job!', 'image1.jpg', '2020-05-19 17:42:52', 14),
+(1, 'How to become a developer.', 'When I click on any table name on the left side panel to view its contents I always get this error mesage:\r\n\'Some errors have been detected on the server!\r\nPlease look at the bottom of this window.\'\r\nI checked the console on the bottom of the page and all I can find there is the simple SQL query: \'SELECT * FROM foo\'. Can\'t find explanation of the error there.\r\nOn the middle of the page (where the table of contents should appear) the data coming from the server is unformatted and I found this message there:\r\nNotice in .\\libraries\\DisplayResults.class.php#2738\r\nUndefined property: stdClass::$db\r\nIf I click on popup\'s \'Ignore\' button the content reloads well formatted without any problem. If I choose a new table to view I get the error message again.', 'image1.jpg', '2020-05-19 17:42:52', 14),
 (2, 'Python Developer job description template.', 'This Python Developer job description template includes the list of most important Python Developer\'s duties and responsibilities. It is customizable and ready to post to job boards.', 'image2.jpg', '2020-05-19 21:11:48', 43),
 (3, 'Software Developer Duties & Responsibilities.', 'Developers can work in systems software or in applications such as those for mobile devices, but their duties are similar in many cases....', 'image3.png', '2020-05-19 21:15:13', 23),
 (4, 'HTML5 Developer job description template.', 'This HTML5 Developer job description template includes the list of most important HTML5 Developer \'s duties and responsibilities. It is customizable and ready to post to job boards. Use it to save time, attract qualified candidates and hire best employees', 'image4.jpg', '2020-05-19 21:15:15', 0),
@@ -58,4 +58,4 @@ ALTER TABLE `blog_post`
 -- AUTO_INCREMENT for table `blog_post`
 --
 ALTER TABLE `blog_post`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
