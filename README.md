@@ -45,8 +45,8 @@ https://kbbugti.github.io/dev-blog//Myblog2/index.html
 #
 ### FORMATION
     2020 Powercoders School 
-    2019 French School courses
-    2014 French School Courses
+    2019 French courses
+    2020 French Courses
     2002 High School
 
 #
