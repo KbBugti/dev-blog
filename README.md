@@ -7,7 +7,7 @@ https://kbbugti.github.io/dev-blog/Myblog/index.html
 https://kbbugti.github.io/dev-blog//Myblog2/index.html
 
 
-# How to make a CV in README or in a normal file in Github.
+# How to make a CV in README or a normal file in Github.
 
 ![pf-img](https://user-images.githubusercontent.com/63241056/80488660-fba44780-895e-11ea-84e0-11519cb6701d.jpg)
 <br>
@@ -45,15 +45,15 @@ https://kbbugti.github.io/dev-blog//Myblog2/index.html
 #
 ### FORMATION
     2020 Powercoders School 
-    2019 French School courses
-    2014 French School Courses
+    2019 French courses
+    2020 French Courses
     2002 High School
 
 #
 ### LANGUAGE SKILLS
     Baluchi Mother tongue
     English Written and spoken, fluent
-    Urdu Written and spoken, fluent
+    Urdu Written and spoken
     French Medium knowledge
 
 #

@@ -406,3 +406,9 @@ div .container-fluid .contact-form {
 .container-fluid .contact-form #email {
     margin-left: 36px;
 }
+
+#submit-button {
+    font-family: sans-serif;
+    color: black;
+    height: 40px;
+}
