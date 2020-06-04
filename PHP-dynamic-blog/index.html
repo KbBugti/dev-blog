@@ -1,16 +1,3 @@
-<?php
-$page = "index.html";
-
-include("connection.php");
-
-
-$stmt = $conn->prepare("SELECT * FROM blog_post");
-$stmt->execute();
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,40 +48,15 @@ $stmt->execute();
 
 
                 <ul class="navbar-nav flex-column">
-                  <?php
-                  
-                  $arr = ["Home", "Blog Post", "About Me"];
-
-                  foreach($arr as $row){
-                      $icon ='';
-                    if($row == 'Home'){
-                      $icon .='home';
-                    }
-                   if($row == 'Blog Post'){
-                    $spin ='fa-spin';
-                    $icon .= 'cog';
-                   }
-                   if($row == 'About Me'){
-                       $icon .='user';
-                       $spin ='';
-                    }
-
-                    echo '
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas '.$spin.' fa-'.$icon.'"></i>
-
-                        '.$row.'
-
-                        </a></li>
-                      ';
-                  }
-                    ?>
-                    <!-- <li class="nav-item">
+                        <a class="index.html" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-cog fa-spin"></i>  Blog Post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="html.index"><i class="fas fa-user"></i>  About Me</a>
-                    </li> -->
+                    </li>
                 </ul>
                 <div class="my-md-3">
                     <a class="btn btn-primary" target="_blank">Get in Touch</a>
@@ -120,91 +82,81 @@ $stmt->execute();
         </section>
         <section class="blog-list">
             <div class="container">
-                <?php while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
-
-                
-                ?>
                 <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="images/<?php echo $result['img']; ?>" alt="a cup of coffee">
+                        <img class="img-fluid" src="images/image1.jpg" alt="a cup of coffee">
                         <div class="media-body">
-                            <h3 class="title"><a href="#"><?php echo $result['post_title']; ?></a></h3>
+                            <h3 class="title"><a href="#">How to become a developer.</a></h3>
                             <div class="social"><span class="date">Published 6 days ago, </span><span class="time"> 34 min read,</span><span class="comment"><a href="#"> 41 comments</a></span></div>
-                            <p class="paragraph"><?php echo substr($result['post_description'], 0 , 200);?></p>
-                            <a class="more-link" href="post1.php?id=<?php echo $result['id']; ?>">Read more &raquo;</a>
+                            <p class="paragraph">Have you ever thought about becoming a software developer or looking for a change of career? This article will give you a solid plan to get you started in software development and get you your first job!</p>
+                            <a class="more-link" href="https://www.freecodecamp.org/news/become-a-developer-and-get-your-first-job-fast-7b8ac26d84c6/">Read more &raquo;</a>
                         </div>
                     </div>
                 </div>
-                <?php }
-                    
-                    ?>
-                
+
                 <!--item-->
-                <!-- <div class="item mb-5">
+                <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="image2.jpg" alt="second columns image">
+                        <img class="img-fluid" src="images/image2.jpg" alt="second columns image">
                         <div class="media-body">
                             <h3 class="title"><a href="#">Python Developer job description template.</a></h3>
                             <div class="social"><span class="date">Published 4 days ago, </span><span class="time"> 23 min read,</span><span class="comment"><a href="#"> 23 comments</a></span></div>
                             <p class="paragraph">This Python Developer job description template includes the list of most important Python Developer's duties and responsibilities. It is customizable and ready to post to job boards.</p>
-                            <a class="more-link" href="post1.html">Read more &raquo;</a>
+                            <a class="more-link" href="post2.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- <div class="item mb-5">
+                <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="image3.png" alt="Third columns image">
+                        <img class="img-fluid" src="images/image3.png" alt="Third columns image">
                         <div class="media-body">
                             <h3 class="title"><a href="#">Software Developer Duties & Responsibilities.</a></h3>
                             <div class="social"><span class="date">Published 7 days ago, </span><span class="time"> 5 min read,</span><span class="comment"><a href="#"> 45 comments</a></span></div>
                             <p class="paragraph">Developers can work in systems software or in applications such as those for mobile devices, but their duties are similar in many cases....</p>
-                            <a class="more-link" href="blog-post.html">Read more &raquo;</a>
+                            <a class="more-link" href="post2.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- <div class="item mb-5">
+                <div class="item mb-5">
                     <div class="media">
-                        <img class="img-fluid" src="image4.jpg" alt="This is a mackbook">
+                        <img class="img-fluid" src="images/image4.jpg" alt="This is a mackbook">
                         <div class="media-body">
                             <h3 class="title"><a href="#">HTML5 Developer job description template.</a></h3>
                             <div class="social"><span class="date">Published 8 days ago, </span><span class="time"> 54 min read,</span><span class="comment"><a href="#"> 43 comments</a></span></div>
                             <p class="paragraph">This HTML5 Developer job description template includes the list of most important HTML5 Developer 's duties and responsibilities. It is customizable and ready to post to job boards. Use it to save time, attract qualified candidates
                                 and hire best employees</p>
-                            <a class="more-link" href="blog-post.html">Read more &raquo;</a>
+                            <a class="more-link" href="post3.html">Read more &raquo;</a>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- <div class="item mb-5"> -->
-                    <!-- <div class="media">
-                        <img class="img-fluid" src="image5.jpg" alt="Fifth columns image">
+                <div class="item mb-5">
+                    <div class="media">
+                        <img class="img-fluid" src="images/image5.jpg" alt="Fifth columns image">
                         <div class="media-body">
                             <h3 class="title"><a href="#">Bootstrap · The most popular HTML, CSS, and JS library in the world.</a></h3>
                             <div class="social"><span class="date">Published 5 days ago, </span><span class="time"> 34 min read,</span><span class="comment"><a href="#"> 9 comments</a></span></div>
                             <p class="paragraph">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins</p>
                             <a class="more-link" href="https://getbootstrap.com">Read more &raquo;</a>
-                        </div>  
-                    </div> -->
+                        </div>
+                    </div>
 
 
-                   
-                    <div class="previous-next mb-5">
+                    <div class="previous-next">
                         <a class="next btn" href="page1.html">Next &rarr;</a>
                     </div>
 
-                <!-- </div> -->
-
-                
-
                 </div>
+
+
+        </section>
 
         <footer class="footer py-2">
             <small class="copyright">Designed &copy; 2020 by <a href="#">Khuda Bakhsh Bugti <i class="fas fa-heart"></i> </a></small>
         </footer>
-        
-        </section>
+        </div>
 
 
 
