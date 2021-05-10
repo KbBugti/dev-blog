@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.container {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    line-height: 50px;
+    width: 530px;
+    height: auto;
+    text-align: left;
+}
+
+.panel-heading h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 50px;
+}
+
+.container label {
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #030C15;
+}
+
+.container .form-group {
+    width: 500px;
+}
+
+#paragraph {
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+}
+
+
+/* .container .gender {
+    font-size: 30px;
+    width: 20px;
+} */
+
+#all {
+    font-size: 30px;
+}
+
+#male {
+    top: 10px;
+    left: 0;
+    width: 30px;
+    padding: 10px;
+}
+
+#female {
+    top: 0;
+    left: 0;
+    width: 30px;
+    padding: 10px;
+}
+
+#other {
+    top: 0;
+    left: 0;
+    width: 30px;
+    padding: 10px;
+}

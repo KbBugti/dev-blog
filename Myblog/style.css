@@ -241,7 +241,7 @@ body {
 .btn-primary {
     color: #fff;
     width: 200px;
-    box-shadow: 0px 0px 2px 1px #fff;
+    box-shadow: 0px 0.1px 1px 0.4px #fff;
 
 }
 
@@ -270,6 +270,97 @@ body {
     color: #007bff;
 }
 
+figure .fa.fa-twitter {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1A91DA;
+    color: #ffffff;
+}
+
+figure .fa.fa-facebook {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+
+figure .fa.fa-google {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #F33A31;
+    color: #ffffff;
+}
+
+figure .fa.fa-linkedin {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #177FB5;
+    color: #ffffff;
+}
+
+figure .fa.fa-github {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1A1E22;
+    color: #ffffff;
+}
+
+figure .fa.fa-dribbble {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #D95887;
+    color: #ffffff;
+}
+
+figure .fa.fa-video-camera {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1B6DE6;
+    color: #ffffff;
+}
 
 /*------------Set a specific color for each brand of icons-------------*/
 
@@ -466,7 +557,7 @@ a:hover {
 
 .previous-next a:hover {
     text-decoration: none;
-    color: rebeccapurple;
+    color: #000000;
     transition: 1s ease;
 }
 
@@ -495,7 +586,7 @@ a:hover {
 
 .previousnext a:hover {
     text-decoration: none;
-    color: rebeccapurple;
+    color: #000000;
     transition: all 1s ease;
     opacity: 1s;
 }

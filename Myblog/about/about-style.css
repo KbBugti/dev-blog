@@ -1,0 +1,172 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+    margin-top: 20px;
+    padding: 60px;
+    text-align: center;
+    background: #4A7FE4;
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+}
+
+img {
+    position: relative;
+    display: block;
+    width: 350px;
+    height: 300px;
+    float: right;
+    z-index: 2;
+}
+
+/*------------Set a specific color for each brand of icons-------------*/
+
+.header ul {
+    position: absolute;
+    top: 3%;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+ul .fa {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+    align-items: left;
+    text-decoration: none;
+}
+
+figure {
+    margin-left: 40px;
+    margin-top: 18%;
+    text-align: left;
+    width: 100%;
+}
+
+
+figure .fa.fa-twitter {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1A91DA;
+    color: #ffffff;
+}
+
+figure .fa.fa-facebook {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+
+figure .fa.fa-google {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #F33A31;
+    color: #ffffff;
+}
+
+figure .fa.fa-linkedin {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #177FB5;
+    color: #ffffff;
+}
+
+figure .fa.fa-github {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1A1E22;
+    color: #ffffff;
+}
+
+figure .fa.fa-dribbble {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #D95887;
+    color: #ffffff;
+}
+
+figure .fa.fa-video-camera {
+    padding: 0.32rem;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    margin: 0.625rem 0.3rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #1B6DE6;
+    color: #ffffff;
+}
+
+
+h1{
+    font-size: 25px;
+    color: #000000;
+}
+/* Page Content */
+.content {
+    font-family: sans-serif;
+    box-shadow: 2px 2px 6px 6px #ced3d8;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 15px;
+    color: #000000;
+}
+
+hr.horizontal-ine {
+    border-top: 3px solid #ced3d8;
+  }
