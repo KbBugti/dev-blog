@@ -51,7 +51,6 @@ https://kbbugti.github.io/dev-blog//Myblog2/index.html
 
 #
 ### LANGUAGE SKILLS
-    Baluchi Mother tongue
     English Written and spoken, fluent
     Urdu Written and spoken
     French Medium knowledge
